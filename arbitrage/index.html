@@ -126,7 +126,7 @@ footer a{color:var(--dim)}
 
   <footer>
     <span>Чистыми: Steam = цена/1.15 · покупка Skinport без комиссии покупателя</span>
-    <span><a href="https://github.com/davletovaalmira11-creator/polymarket-lab/actions" target="_blank" rel="noopener">GitHub Actions</a> · обновление каждые 3 ч · сделка — расчёт, не рекомендация</span>
+    <span><a href="https://github.com/palcikia-crypto/devops-automated-project-1773968821342/actions" target="_blank" rel="noopener">GitHub Actions</a> · обновление каждые 3 ч · сделка — расчёт, не рекомендация</span>
   </footer>
 </div>
 
@@ -218,7 +218,7 @@ footer a{color:var(--dim)}
   onlyPass.addEventListener("change",render);
 
   function load(){
-    var RAW="https://raw.githubusercontent.com/davletovaalmira11-creator/polymarket-lab/master/arbitrage/data.json";
+    var RAW="https://raw.githubusercontent.com/palcikia-crypto/devops-automated-project-1773968821342/main/arbitrage/data.json";
     fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return fetch(RAW+"?t="+Date.now()).then(function(r){return r.json()})}).then(function(s){
       apply(s);
     }).catch(function(){

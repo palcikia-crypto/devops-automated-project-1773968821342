@@ -91,7 +91,7 @@ svg text { font-family:Inter,sans-serif; }
 </div>
 
 <script>
-var RAW = "https://raw.githubusercontent.com/davletovaalmira11-creator/polymarket-lab/master/results/";
+var RAW = "https://raw.githubusercontent.com/palcikia-crypto/devops-automated-project-1773968821342/main/results/";
 var STR = { arb:"Арбитраж", momentum:"Импульс", mr:"Возврат к среднему", vols:"Всплеск объёма", fav:"Фаворит" };
 function show(v) { document.querySelectorAll(".view").forEach(function (x) { x.classList.remove("on"); }); document.getElementById("v-" + v).classList.add("on"); document.querySelectorAll(".nav button").forEach(function (b, i) { b.classList.remove("on"); }); event.currentTarget.classList.add("on"); }
 function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
