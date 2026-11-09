@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply bg-gray-900 text-slate-200;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700;
+  }
+  
+  .card-title {
+    @apply text-lg font-semibold text-white mb-4;
+  }
+  
+  .stat-card {
+    @apply card flex flex-col items-center justify-center p-4 min-w-[140px];
+  }
+  
+  .stat-value {
+    @apply text-2xl font-bold text-cyan-400;
+  }
+  
+  .stat-label {
+    @apply text-sm text-gray-400 mt-1;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900;
+  }
+  
+  .btn-primary {
+    @apply btn bg-cyan-600 hover:bg-cyan-700 text-white focus:ring-cyan-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-gray-700 hover:bg-gray-600 text-white focus:ring-gray-500;
+  }
+  
+  .btn-success {
+    @apply btn bg-emerald-600 hover:bg-emerald-700 text-white focus:ring-emerald-500;
+  }
+  
+  .btn-danger {
+    @apply btn bg-red-600 hover:bg-red-700 text-white focus:ring-red-500;
+  }
+  
+  .input {
+    @apply w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent;
+  }
+  
+  .badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .badge-success {
+    @apply badge bg-emerald-900/30 text-emerald-400;
+  }
+  
+  .badge-warning {
+    @apply badge bg-amber-900/30 text-amber-400;
+  }
+  
+  .badge-danger {
+    @apply badge bg-red-900/30 text-red-400;
+  }
+  
+  .badge-info {
+    @apply badge bg-cyan-900/30 text-cyan-400;
+  }
+  
+  .table {
+    @apply w-full text-left border-collapse;
+  }
+  
+  .table th {
+    @apply px-4 py-3 text-sm font-semibold text-gray-400 uppercase tracking-wider bg-gray-800 border-b border-gray-700;
+  }
+  
+  .table td {
+    @apply px-4 py-3 border-b border-gray-700/50;
+  }
+  
+  .table tbody tr:hover {
+    @apply bg-gray-800/50;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.gray.600') transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: theme('colors.gray.600');
+    border-radius: 3px;
+  }
+}
+
+/* Custom animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}

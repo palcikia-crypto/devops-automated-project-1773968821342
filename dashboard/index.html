@@ -38,52 +38,51 @@ svg text { font-family:Inter,sans-serif; }
 </style>
 </head>
 <body>
-<div class="hd"><h1>🔮 Polymarket Lab <span style="color:var(--dim);font-weight:400;font-size:11px">v1.5</span></h1><span class="tag" id="upd">загрузка…</span></div>
+<div class="hd"><h1>🔮 Polymarket Lab <span style="color:var(--dim);font-weight:400;font-size:11px">v1</span></h1><span class="tag" id="upd">загрузка…</span></div>
 <div class="nav">
 <button class="on" onclick="show('ov')">📊 Обзор</button>
-<button onclick="show('sig')">🎯 Сигналы</button>
-<button onclick="show('pf')">💰 Портфель</button>
+<button onclick="show('sig')">⚡ Сигналы</button>
+<button onclick="show('pf')">💼 Портфель</button>
 <button onclick="show('sys')">⚙️ Система</button>
 </div>
 
 <div class="view on" id="v-ov">
-  <div class="panel"><h2>📊 Суммарный портфель</h2>
+  <div class="panel"><h2>💼 Бумажный портфель</h2>
     <div class="kpis">
       <div class="kpi"><div class="label">Капитал</div><div class="value" id="k-eq">—</div><div class="note" id="k-pnl"></div></div>
       <div class="kpi"><div class="label">Открыто позиций</div><div class="value" id="k-open">—</div><div class="note">макс. 6 · 5% капитала на позицию</div></div>
-      <div class="kpi"><div class="label">Сделок за сессию</div><div class="value" id="k-tr">—</div><div class="note" id="k-wr"></div></div>
+      <div class="kpi"><div class="label">Сделок закрыто</div><div class="value" id="k-tr">—</div><div class="note" id="k-wr"></div></div>
       <div class="kpi"><div class="label">Отсканировано рынков</div><div class="value" id="k-scn">—</div><div class="note">крипто-рынки предсказаний</div></div>
     </div>
   </div>
   <div class="panel"><h2>📈 Кривая капитала</h2><div id="curve"></div>
-    <div class="legend">бумажная торговля, старт $1000 · комиссия ~0.2% на круг учтены · тейк-профит/стоп ±10% · срок позиции до 14 дней</div>
+    <div class="legend">бумажная торговля, старт $1000 · комиссии ~0.2% на круг учтены · тейк-профит/стоп ±10% · срок позиции до 14 дней</div>
   </div>
 </div>
 
 <div class="view" id="v-sig">
-  <div class="panel"><h2>🎯 Активные сигналы <span class="chip" id="sig-n">—</span></h2>
+  <div class="panel"><h2>⚡ Активные сигналы <span class="chip" id="sig-n">—</span></h2>
     <div class="tbl-wrap"><table id="sig-t"></table></div>
-    <div class="legend">эдж — грубая оценка несправедливости цен; торгулю только сигналы с ликвидностью > $2000, ценой 0.06–0.94 и положительным эджем</div>
+    <div class="legend">эдж — грубая оценка несправедливости цены; торговлю получают только сигналы с ликвидностью > $2000, ценой 0.06–0.94 и положительным эджем</div>
   </div>
 </div>
 
 <div class="view" id="v-pf">
-  <div class="panel"><h2>📊 Открытые позиции</h2><div class="tbl-wrap"><table id="pos-t"></table></div></div>
-  <div class="panel"><h2>🎯 История сделок</h2><div class="tbl-wrap"><table id="cls-t"></table></div></div>
+  <div class="panel"><h2>📂 Открытые позиции</h2><div class="tbl-wrap"><table id="pos-t"></table></div></div>
+  <div class="panel"><h2>🧾 История сделок</h2><div class="tbl-wrap"><table id="cls-t"></table></div></div>
 </div>
 
 <div class="view" id="v-sys">
   <div class="panel"><h2>⚙️ Как это работает</h2><div style="font-size:12px;color:var(--dim);line-height:1.7">
-    Воркер GitHub Actions сканирует 30 минут крипто-рынки предсказаний Polymarket (gamma-api) и прогоняет 5 стратегий поиска эджа:<br>
-    <br>
-    • <b style="color:var(--text)">Арбитраж</b> — сумма цен да+нет ниже 1 минус издержки<br>
-    • <b style="color:var(--text)">Импульс</b> — устойчивый сдвиг цен за 3 дня<br>
+    Воркер GitHub Actions каждые 30 минут сканирует крипто-рынки предсказаний Polymarket (gamma-api) и прогоняет 5 стратегий поиска эджа:<br>
+    • <b style="color:var(--text)">Арбитраж</b> — сумма цен Да+Нет ниже 1 минус издержки<br>
+    • <b style="color:var(--text)">Импульс</b> — устойчивый сдвиг цены за 3 дня<br>
     • <b style="color:var(--text)">Возврат к среднему</b> — цена отклонилась от нормы (z-оценка > 2σ)<br>
-    • <b style="color:var(--text)">Всплеск объема</b> — объем 24ч выше среднего<br>
-    • <b style="color:var(--text)">Фаворит</b> — фаворит рынка<br><br>
-    Лучшие сигналы идут в бумажный портфель $1000. Реальные деньги не используются — только виртуальная торговля для тестирования стратегий.
+    • <b style="color:var(--text)">Всплеск объёма</b> — объём 24ч втрое выше недельного (информационный)<br>
+    • <b style="color:var(--text)">Фаворит</b> — переоценка длинных шотов: исход 78–95% при высокой ликвидности ближе к дате расчёта<br><br>
+    Лучшие сигналы идут в бумажный портфель $1000. Реальных денег НЕТ — только виртуальная торговля для накопления статистики.
   </div></div>
-  <div class="panel"><h2>🎯 Здоровье</h2>
+  <div class="panel"><h2>🩺 Здоровье</h2>
     <div class="kpis">
       <div class="kpi"><div class="label">Прогонов воркера</div><div class="value" id="k-runs">—</div><div class="note">каждые 30 минут</div></div>
       <div class="kpi"><div class="label">Обновлено</div><div class="value" style="font-size:14px" id="k-upd">—</div><div class="note">UTC</div></div>
@@ -92,8 +91,8 @@ svg text { font-family:Inter,sans-serif; }
 </div>
 
 <script>
-var RAW = "https://raw.githubusercontent.com/palcikia-crypto/devops-automated-project-1773968821342/main/results/";
-var STR = { arb:"Арбитраж", momentum:"Импульс", mr:"Возврат к среднему", vols:"Всплеск объема", fav:"Фаворит" };
+var RAW = "https://raw.githubusercontent.com/davletovaalmira11-creator/polymarket-lab/master/results/";
+var STR = { arb:"Арбитраж", momentum:"Импульс", mr:"Возврат к среднему", vols:"Всплеск объёма", fav:"Фаворит" };
 function show(v) { document.querySelectorAll(".view").forEach(function (x) { x.classList.remove("on"); }); document.getElementById("v-" + v).classList.add("on"); document.querySelectorAll(".nav button").forEach(function (b, i) { b.classList.remove("on"); }); event.currentTarget.classList.add("on"); }
 function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
 function f(x) { return x === undefined || x === null || isNaN(x) ? "—" : x; }
@@ -122,15 +121,15 @@ function render(st, sg) {
   document.getElementById("k-pnl").textContent = pn !== undefined ? pct(pn) + " от старта" : "";
   document.getElementById("k-open").textContent = f(s.open);
   document.getElementById("k-tr").textContent = f(s.trades);
-  document.getElementById("k-wr").textContent = "выигрыш " + f(s.winrate) + "%";
+  document.getElementById("k-wr").textContent = "винрейт " + f(s.winrate) + "%";
   document.getElementById("k-runs").textContent = f(st.runs);
   document.getElementById("k-upd").textContent = (s.updated || "—").replace("T", " ").slice(0, 16);
   drawCurve(st.curve);
   var pos = st.positions || {};
-  var pt = "<tr><th>Рынок</th><th>Исход</th><th>Стратегия</th><th>Вход</th><th>Текущ.</th><th>P&L</th></tr>";
+  var pt = "<tr><th>Рынок</th><th>Исход</th><th>Стратегия</th><th>Вход</th><th>Тек.</th><th>P&L</th></tr>";
   Object.keys(pos).forEach(function (k) { var p = pos[k]; var ch = (p.last / p.entry - 1) * 100;
     pt += "<tr><td>" + esc(p.question).slice(0, 60) + "</td><td>" + p.outcome + "</td><td>" + (STR[p.strategy] || p.strategy) + "</td><td>" + p.entry + "</td><td>" + f(p.last) + "</td><td class='" + (ch >= 0 ? "pos" : "neg") + "'>" + pct(ch.toFixed(1)) + "</td></tr>"; });
-  if (!Object.keys(pos).length) pt += "<tr><td colspan='6' class='fallback'>пока нет открытых позиций — ждём первый сигнал</td></tr>";
+  if (!Object.keys(pos).length) pt += "<tr><td colspan='6' class='fallback'>пока нет открытых позиций — воркер ждёт качественный сигнал</td></tr>";
   document.getElementById("pos-t").innerHTML = pt;
   var cl = (st.closed || []).slice().reverse();
   var ct = "<tr><th>Рынок</th><th>Исход</th><th>Вход</th><th>Выход</th><th>Результат</th><th>Причина</th></tr>";

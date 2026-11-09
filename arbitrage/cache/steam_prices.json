@@ -1,0 +1,2381 @@
+{
+ "CS:GO Weapon Case 2": {
+  "price": 19.98,
+  "volume": 18,
+  "ts": 1794254373,
+  "fails": 0
+ },
+ "CS:GO Weapon Case 3": {
+  "price": 14.09,
+  "volume": 25,
+  "ts": 1794254376,
+  "fails": 0
+ },
+ "MP9 | Starlight Protector (Field-Tested)": {
+  "price": 59.8,
+  "volume": 83,
+  "ts": 1794254370,
+  "fails": 0
+ },
+ "Operation Breakout Weapon Case": {
+  "price": 8.76,
+  "volume": 1331,
+  "ts": 1794254379,
+  "fails": 0
+ },
+ "'The Doctor' Romanov | Sabre": {
+  "price": 10.7,
+  "volume": 125,
+  "ts": 1794254458,
+  "fails": 0
+ },
+ "2020 RMR Contenders": {
+  "price": 0.29,
+  "volume": 165,
+  "ts": 1794225791,
+  "fails": 0
+ },
+ "3rd Commando Company | KSK": {
+  "price": 12.43,
+  "volume": 79,
+  "ts": 1794254445,
+  "fails": 0
+ },
+ "AK-47 | Asiimov (Field-Tested)": {
+  "price": 43.4,
+  "volume": 36,
+  "ts": 1794257826,
+  "fails": 0
+ },
+ "AK-47 | Elite Build (Field-Tested)": {
+  "price": 2.15,
+  "volume": 293,
+  "ts": 1794215929,
+  "fails": 1,
+  "ts_fail": 1794257925
+ },
+ "AK-47 | Elite Build (Minimal Wear)": {
+  "price": 3.16,
+  "volume": 145,
+  "ts": 1794257860,
+  "fails": 0
+ },
+ "AK-47 | Elite Build (Well-Worn)": {
+  "price": 1.68,
+  "volume": 220,
+  "ts": 1794257971,
+  "fails": 0
+ },
+ "AK-47 | Ice Coaled (Field-Tested)": {
+  "price": 4.55,
+  "volume": 430,
+  "ts": 1794254561,
+  "fails": 0
+ },
+ "AK-47 | Ice Coaled (Minimal Wear)": {
+  "price": 8.05,
+  "volume": 150,
+  "ts": 1794254477,
+  "fails": 0
+ },
+ "AK-47 | Legion of Anubis (Field-Tested)": {
+  "price": 32.35,
+  "volume": 32,
+  "ts": 1794254395,
+  "fails": 0
+ },
+ "AK-47 | Nightwish (Field-Tested)": {
+  "price": 62.7,
+  "volume": 71,
+  "ts": 1794254385,
+  "fails": 0
+ },
+ "AK-47 | Olive Polycam (Factory New)": {
+  "price": 0.32,
+  "volume": 203,
+  "ts": 1794225732,
+  "fails": 0
+ },
+ "AK-47 | Redline (Field-Tested)": {
+  "price": 29.01,
+  "volume": 56,
+  "ts": 1794254407,
+  "fails": 0
+ },
+ "AK-47 | Searing Rage (Field-Tested)": {
+  "price": 4.71,
+  "volume": 267,
+  "ts": 1794254564,
+  "fails": 0
+ },
+ "AK-47 | Searing Rage (Well-Worn)": {
+  "price": 4.3,
+  "volume": 115,
+  "ts": 1794254587,
+  "fails": 0
+ },
+ "AK-47 | Slate (Field-Tested)": {
+  "price": 4.66,
+  "volume": 386,
+  "ts": 1794254590,
+  "fails": 0
+ },
+ "AK-47 | Slate (Minimal Wear)": {
+  "price": 6.69,
+  "volume": 129,
+  "ts": 1794254496,
+  "fails": 0
+ },
+ "AK-47 | Uncharted (Field-Tested)": {
+  "price": 0.65,
+  "volume": 543,
+  "ts": 1794222169,
+  "fails": 0
+ },
+ "AK-47 | Uncharted (Minimal Wear)": {
+  "price": 0.87,
+  "volume": 217,
+  "ts": 1794258095,
+  "fails": 0
+ },
+ "AK-47 | Wintergreen (Field-Tested)": {
+  "price": 0.58,
+  "volume": 946,
+  "ts": 1794222237,
+  "fails": 0
+ },
+ "AUG | Luxe Trim (Field-Tested)": {
+  "price": 0.34,
+  "volume": 87,
+  "ts": 1794225716,
+  "fails": 0
+ },
+ "AUG | Snake Pit (Factory New)": {
+  "price": 0.23,
+  "volume": 36,
+  "ts": 1794225859,
+  "fails": 0
+ },
+ "AUG | Stymphalian (Field-Tested)": {
+  "price": 3.76,
+  "volume": 28,
+  "ts": 1794254636,
+  "fails": 0
+ },
+ "AUG | Triqua (Field-Tested)": {
+  "price": 0.32,
+  "volume": 26,
+  "ts": 1794225735,
+  "fails": 0
+ },
+ "AWP | Atheris (Field-Tested)": {
+  "price": 4.65,
+  "volume": 255,
+  "ts": 1794254583,
+  "fails": 0
+ },
+ "AWP | Capillary (Field-Tested)": {
+  "price": 0.71,
+  "volume": 434,
+  "ts": 1794258132,
+  "fails": 0
+ },
+ "AWP | Capillary (Minimal Wear)": {
+  "price": 1.22,
+  "volume": 202,
+  "ts": 1794258049,
+  "fails": 0
+ },
+ "AWP | Chromatic Aberration (Field-Tested)": {
+  "price": 31.45,
+  "volume": 20,
+  "ts": 1794254398,
+  "fails": 0
+ },
+ "AWP | Duality (Field-Tested)": {
+  "price": 3.29,
+  "volume": 247,
+  "ts": 1794257863,
+  "fails": 0
+ },
+ "AWP | Mortis (Field-Tested)": {
+  "price": 3.54,
+  "volume": 151,
+  "ts": 1794254677,
+  "fails": 0
+ },
+ "AWP | Pit Viper (Field-Tested)": {
+  "price": 1.04,
+  "volume": 350,
+  "ts": 1794258061,
+  "fails": 0
+ },
+ "AWP | Pit Viper (Minimal Wear)": {
+  "price": 1.47,
+  "volume": 203,
+  "ts": 1794257987,
+  "fails": 0
+ },
+ "Antwerp 2022 Challengers Autograph Capsule": {
+  "price": 0.27,
+  "volume": 266,
+  "ts": 1794225825,
+  "fails": 0
+ },
+ "Antwerp 2022 Challengers Sticker Capsule": {
+  "price": 0.26,
+  "volume": 308,
+  "ts": 1794225809,
+  "fails": 0
+ },
+ "Antwerp 2022 Contenders Autograph Capsule": {
+  "price": 0.59,
+  "volume": 279,
+  "ts": 1794222243,
+  "fails": 0
+ },
+ "Antwerp 2022 Contenders Sticker Capsule": {
+  "price": 0.43,
+  "volume": 660,
+  "ts": 1794222342,
+  "fails": 0
+ },
+ "Antwerp 2022 Legends Autograph Capsule": {
+  "price": 0.31,
+  "volume": 234,
+  "ts": 1794225744,
+  "fails": 0
+ },
+ "Antwerp 2022 Legends Sticker Capsule": {
+  "price": 0.39,
+  "volume": 769,
+  "ts": 1794222379,
+  "fails": 0
+ },
+ "Antwerp 2022 Mirage Souvenir Package": {
+  "price": 4.2,
+  "volume": 3,
+  "ts": 1794254574,
+  "fails": 0
+ },
+ "Anubis Collection Package": {
+  "price": 2.1,
+  "volume": 529,
+  "ts": 1794257931,
+  "fails": 0
+ },
+ "Austin 2025 Anubis Souvenir Highlight Package": {
+  "price": 2.94,
+  "volume": 7,
+  "ts": 1794257885,
+  "fails": 0
+ },
+ "Austin 2025 Dust II Souvenir Highlight Package": {
+  "price": 3.56,
+  "volume": 76,
+  "ts": 1794254658,
+  "fails": 0
+ },
+ "Austin 2025 Mirage Souvenir Highlight Package": {
+  "price": 3.54,
+  "volume": 39,
+  "ts": 1794254661,
+  "fails": 0
+ },
+ "B Squadron Officer | SAS": {
+  "price": 8.16,
+  "volume": 73,
+  "ts": 1794254480,
+  "fails": 0
+ },
+ "Berlin 2019 Legends Autograph Capsule": {
+  "price": 1.32,
+  "volume": 45,
+  "ts": 1794258005,
+  "fails": 0
+ },
+ "Berlin 2019 Minor Challengers Autograph Capsule": {
+  "price": 2.08,
+  "volume": 18,
+  "ts": 1794215935,
+  "fails": 1,
+  "ts_fail": 1794257937
+ },
+ "Berlin 2019 Returning Challengers (Holo-Foil)": {
+  "price": 2.87,
+  "volume": 10,
+  "ts": 1794257900,
+  "fails": 0
+ },
+ "Berlin 2019 Returning Challengers Autograph Capsule": {
+  "price": 1.1,
+  "volume": 20,
+  "ts": 1794258046,
+  "fails": 0
+ },
+ "Budapest 2025 Legends Sticker Capsule": {
+  "price": 0.17,
+  "volume": 1637,
+  "ts": 1794225884,
+  "fails": 0
+ },
+ "CS20 Case": {
+  "price": 0.75,
+  "volume": 3173,
+  "ts": 1794216109,
+  "fails": 0
+ },
+ "CS:GO Weapon Case": {
+  "price": 122.28,
+  "volume": 18,
+  "ts": 1794254382,
+  "fails": 0
+ },
+ "CZ75-Auto | Circaetus (Field-Tested)": {
+  "price": 0.3,
+  "volume": 132,
+  "ts": 1794225763,
+  "fails": 0
+ },
+ "CZ75-Auto | Copper Fiber (Factory New)": {
+  "price": 0.24,
+  "volume": 42,
+  "ts": 1794225844,
+  "fails": 0
+ },
+ "Charm | Die-cast AK": {
+  "price": 2.78,
+  "volume": 66,
+  "ts": 1794257894,
+  "fails": 0
+ },
+ "Charm | Disco MAC": {
+  "price": 0.34,
+  "volume": 87,
+  "ts": 1794225697,
+  "fails": 0
+ },
+ "Charm | Glamour Shot": {
+  "price": 0.7,
+  "volume": 113,
+  "ts": 1794222200,
+  "fails": 0
+ },
+ "Charm | Semi-Precious": {
+  "price": 9.96,
+  "volume": 29,
+  "ts": 1794254461,
+  "fails": 0
+ },
+ "Charm | Titeenium AWP": {
+  "price": 3.05,
+  "volume": 23,
+  "ts": 1794257848,
+  "fails": 0
+ },
+ "Chroma 2 Case": {
+  "price": 4.21,
+  "volume": 1253,
+  "ts": 1794254599,
+  "fails": 0
+ },
+ "Chroma 3 Case": {
+  "price": 3.4,
+  "volume": 1532,
+  "ts": 1794254642,
+  "fails": 0
+ },
+ "Chroma Case": {
+  "price": 5.3,
+  "volume": 364,
+  "ts": 1794254533,
+  "fails": 0
+ },
+ "Clutch Case": {
+  "price": 0.51,
+  "volume": 4298,
+  "ts": 1794222311,
+  "fails": 0
+ },
+ "Community Sticker Capsule 1": {
+  "price": 3.19,
+  "volume": 160,
+  "ts": 1794257888,
+  "fails": 0
+ },
+ "Copenhagen 2024 Challengers Sticker Capsule": {
+  "price": 0.53,
+  "volume": 220,
+  "ts": 1794222295,
+  "fails": 0
+ },
+ "Copenhagen 2024 Contenders Sticker Capsule": {
+  "price": 0.29,
+  "volume": 1389,
+  "ts": 1794225766,
+  "fails": 0
+ },
+ "Copenhagen 2024 Legends Autograph Capsule": {
+  "price": 0.46,
+  "volume": 69,
+  "ts": 1794222323,
+  "fails": 0
+ },
+ "Copenhagen 2024 Mirage Souvenir Package": {
+  "price": 3.93,
+  "volume": 14,
+  "ts": 1794254618,
+  "fails": 0
+ },
+ "Danger Zone Case": {
+  "price": 1.11,
+  "volume": 5408,
+  "ts": 1794258036,
+  "fails": 0
+ },
+ "Desert Eagle | Blue Ply (Field-Tested)": {
+  "price": 0.42,
+  "volume": 198,
+  "ts": 1794222370,
+  "fails": 0
+ },
+ "Desert Eagle | Blue Ply (Well-Worn)": {
+  "price": 0.36,
+  "volume": 174,
+  "ts": 1794222453,
+  "fails": 0
+ },
+ "Desert Eagle | Bronze Deco (Field-Tested)": {
+  "price": 0.28,
+  "volume": 61,
+  "ts": 1794225813,
+  "fails": 0
+ },
+ "Desert Eagle | Calligraffiti (Field-Tested)": {
+  "price": 0.34,
+  "volume": 113,
+  "ts": 1794225648,
+  "fails": 0
+ },
+ "Desert Eagle | Corinthian (Field-Tested)": {
+  "price": 0.49,
+  "volume": 146,
+  "ts": 1794222302,
+  "fails": 0
+ },
+ "Desert Eagle | Heat Treated (Field-Tested)": {
+  "price": 1.3,
+  "volume": 198,
+  "ts": 1794258008,
+  "fails": 0
+ },
+ "Desert Eagle | Heat Treated (Minimal Wear)": {
+  "price": 2.68,
+  "volume": 89,
+  "ts": 1794257903,
+  "fails": 0
+ },
+ "Desert Eagle | Light Rail (Field-Tested)": {
+  "price": 1.21,
+  "volume": 247,
+  "ts": 1794258018,
+  "fails": 0
+ },
+ "Desert Eagle | Oxide Blaze (Field-Tested)": {
+  "price": 0.49,
+  "volume": 87,
+  "ts": 1794222333,
+  "fails": 0
+ },
+ "Desert Eagle | Printstream (Field-Tested)": {
+  "price": 35.97,
+  "volume": 80,
+  "ts": 1794254392,
+  "fails": 0
+ },
+ "Desert Eagle | Serpent Strike (Factory New)": {
+  "price": 1.8,
+  "volume": 92,
+  "ts": 1794257956,
+  "fails": 0
+ },
+ "Desert Eagle | Serpent Strike (Field-Tested)": {
+  "price": 0.48,
+  "volume": 415,
+  "ts": 1794222314,
+  "fails": 0
+ },
+ "Desert Eagle | Serpent Strike (Minimal Wear)": {
+  "price": 0.89,
+  "volume": 240,
+  "ts": 1794258101,
+  "fails": 0
+ },
+ "Desert Eagle | Tilted (Factory New)": {
+  "price": 1.44,
+  "volume": 116,
+  "ts": 1794257996,
+  "fails": 0
+ },
+ "Desert Eagle | Tilted (Minimal Wear)": {
+  "price": 0.53,
+  "volume": 607,
+  "ts": 1794222283,
+  "fails": 0
+ },
+ "Desert Eagle | Trigger Discipline (Field-Tested)": {
+  "price": 0.8,
+  "volume": 239,
+  "ts": 1794216137,
+  "fails": 0
+ },
+ "Desert Eagle | Urban Rubble (Field-Tested)": {
+  "price": 0.2,
+  "volume": 54,
+  "ts": 1794167531,
+  "fails": 0
+ },
+ "Dreams & Nightmares Case": {
+  "price": 1.04,
+  "volume": 83082,
+  "ts": 1794258058,
+  "fails": 0
+ },
+ "Dual Berettas | Cobalt Quartz (Factory New)": {
+  "price": 0.65,
+  "volume": 91,
+  "ts": 1794222212,
+  "fails": 0
+ },
+ "Dual Berettas | Cobalt Quartz (Field-Tested)": {
+  "price": 0.3,
+  "volume": 235,
+  "ts": 1794225676,
+  "fails": 0
+ },
+ "Dual Berettas | Flora Carnivora (Field-Tested)": {
+  "price": 0.46,
+  "volume": 169,
+  "ts": 1794222373,
+  "fails": 0
+ },
+ "Dual Berettas | Flora Carnivora (Well-Worn)": {
+  "price": 0.37,
+  "volume": 80,
+  "ts": 1794222382,
+  "fails": 0
+ },
+ "Dual Berettas | Melondrama (Field-Tested)": {
+  "price": 5.82,
+  "volume": 157,
+  "ts": 1794254505,
+  "fails": 0
+ },
+ "Dual Berettas | Melondrama (Well-Worn)": {
+  "price": 5.63,
+  "volume": 72,
+  "ts": 1794254521,
+  "fails": 0
+ },
+ "Enforcer | Phoenix": {
+  "price": 5.25,
+  "volume": 106,
+  "ts": 1794254568,
+  "fails": 0
+ },
+ "FAMAS | Crypsis (Field-Tested)": {
+  "price": 0.32,
+  "volume": 98,
+  "ts": 1794225747,
+  "fails": 0
+ },
+ "FAMAS | Half Sleeve (Factory New)": {
+  "price": 0.61,
+  "volume": 8,
+  "ts": 1794222240,
+  "fails": 0
+ },
+ "FAMAS | Rapid Eye Movement (Field-Tested)": {
+  "price": 5.88,
+  "volume": 173,
+  "ts": 1794254512,
+  "fails": 0
+ },
+ "FAMAS | Rapid Eye Movement (Minimal Wear)": {
+  "price": 6.82,
+  "volume": 73,
+  "ts": 1794254493,
+  "fails": 0
+ },
+ "FAMAS | Rapid Eye Movement (Well-Worn)": {
+  "price": 5.61,
+  "volume": 91,
+  "ts": 1794254524,
+  "fails": 0
+ },
+ "Falchion Case": {
+  "price": 1.64,
+  "volume": 1434,
+  "ts": 1794257974,
+  "fails": 0
+ },
+ "Fever Case": {
+  "price": 0.71,
+  "volume": 29445,
+  "ts": 1794222181,
+  "fails": 0
+ },
+ "Five-SeveN | Flame Test (Minimal Wear)": {
+  "price": 0.23,
+  "volume": 57,
+  "ts": 1794225841,
+  "fails": 0
+ },
+ "Five-SeveN | Heat Treated (Field-Tested)": {
+  "price": 2.16,
+  "volume": 33,
+  "ts": 1794257922,
+  "fails": 0
+ },
+ "Five-SeveN | Hybrid (Battle-Scarred)": {
+  "price": 0.38,
+  "volume": 83,
+  "ts": 1794222456,
+  "fails": 0
+ },
+ "Five-SeveN | Hybrid (Field-Tested)": {
+  "price": 0.43,
+  "volume": 376,
+  "ts": 1794225651,
+  "fails": 0
+ },
+ "Five-SeveN | Hybrid (Well-Worn)": {
+  "price": 0.35,
+  "volume": 127,
+  "ts": 1794225654,
+  "fails": 0
+ },
+ "Five-SeveN | Monkey Business (Field-Tested)": {
+  "price": 12.79,
+  "volume": 29,
+  "ts": 1794254439,
+  "fails": 0
+ },
+ "Five-SeveN | Violent Daimyo (Field-Tested)": {
+  "price": 0.5,
+  "volume": 94,
+  "ts": 1794222330,
+  "fails": 0
+ },
+ "Fracture Case": {
+  "price": 0.42,
+  "volume": 16827,
+  "ts": 1794222364,
+  "fails": 0
+ },
+ "G3SG1 | Dream Glade (Battle-Scarred)": {
+  "price": 0.57,
+  "volume": 165,
+  "ts": 1794222286,
+  "fails": 0
+ },
+ "G3SG1 | Dream Glade (Field-Tested)": {
+  "price": 0.58,
+  "volume": 269,
+  "ts": 1794222249,
+  "fails": 0
+ },
+ "G3SG1 | Dream Glade (Minimal Wear)": {
+  "price": 0.83,
+  "volume": 108,
+  "ts": 1794258123,
+  "fails": 0
+ },
+ "G3SG1 | Dream Glade (Well-Worn)": {
+  "price": 0.57,
+  "volume": 154,
+  "ts": 1794222258,
+  "fails": 0
+ },
+ "Galil AR | Akoben (Field-Tested)": {
+  "price": 0.34,
+  "volume": 123,
+  "ts": 1794225679,
+  "fails": 0
+ },
+ "Galil AR | Connexion (Field-Tested)": {
+  "price": 0.39,
+  "volume": 251,
+  "ts": 1794222410,
+  "fails": 0
+ },
+ "Galil AR | Control (Field-Tested)": {
+  "price": 0.43,
+  "volume": 212,
+  "ts": 1794222317,
+  "fails": 0
+ },
+ "Galil AR | Control (Minimal Wear)": {
+  "price": 0.99,
+  "volume": 77,
+  "ts": 1794258104,
+  "fails": 0
+ },
+ "Galil AR | NV (Factory New)": {
+  "price": 0.48,
+  "volume": 123,
+  "ts": 1794222326,
+  "fails": 0
+ },
+ "Galil AR | Signal (Field-Tested)": {
+  "price": 0.57,
+  "volume": 128,
+  "ts": 1794222271,
+  "fails": 0
+ },
+ "Gallery Case": {
+  "price": 0.69,
+  "volume": 4157,
+  "ts": 1794222203,
+  "fails": 0
+ },
+ "Gamma 2 Case": {
+  "price": 3.39,
+  "volume": 2826,
+  "ts": 1794257851,
+  "fails": 0
+ },
+ "Gamma Case": {
+  "price": 3.29,
+  "volume": 2227,
+  "ts": 1794257854,
+  "fails": 0
+ },
+ "Glock-18 | Block-18 (Field-Tested)": {
+  "price": 0.46,
+  "volume": 612,
+  "ts": 1794222385,
+  "fails": 0
+ },
+ "Glock-18 | Block-18 (Minimal Wear)": {
+  "price": 0.77,
+  "volume": 262,
+  "ts": 1794216149,
+  "fails": 0
+ },
+ "Glock-18 | Candy Apple (Factory New)": {
+  "price": 1.78,
+  "volume": 140,
+  "ts": 1794257950,
+  "fails": 0
+ },
+ "Glock-18 | Candy Apple (Minimal Wear)": {
+  "price": 1.3,
+  "volume": 164,
+  "ts": 1794257993,
+  "fails": 0
+ },
+ "Glock-18 | Clear Polymer (Field-Tested)": {
+  "price": 0.47,
+  "volume": 144,
+  "ts": 1794222336,
+  "fails": 0
+ },
+ "Glock-18 | Ocean Topo (Factory New)": {
+  "price": 0.35,
+  "volume": 321,
+  "ts": 1794225719,
+  "fails": 0
+ },
+ "Glock-18 | Off World (Field-Tested)": {
+  "price": 0.37,
+  "volume": 94,
+  "ts": 1794225738,
+  "fails": 0
+ },
+ "Glock-18 | Oxide Blaze (Field-Tested)": {
+  "price": 0.29,
+  "volume": 166,
+  "ts": 1794225769,
+  "fails": 0
+ },
+ "Glock-18 | Shinobu (Field-Tested)": {
+  "price": 4.55,
+  "volume": 182,
+  "ts": 1794254571,
+  "fails": 0
+ },
+ "Glock-18 | Umbral Rabbit (Field-Tested)": {
+  "price": 0.39,
+  "volume": 672,
+  "ts": 1794225657,
+  "fails": 0
+ },
+ "Glock-18 | Vogue (Field-Tested)": {
+  "price": 3.92,
+  "volume": 199,
+  "ts": 1794254630,
+  "fails": 0
+ },
+ "Glock-18 | Water Elemental (Field-Tested)": {
+  "price": 19.37,
+  "volume": 27,
+  "ts": 1794254420,
+  "fails": 0
+ },
+ "Glock-18 | Water Elemental (Minimal Wear)": {
+  "price": 19.55,
+  "volume": 26,
+  "ts": 1794254417,
+  "fails": 0
+ },
+ "Glove Case": {
+  "price": 9.9,
+  "volume": 1103,
+  "ts": 1794254455,
+  "fails": 0
+ },
+ "Glove Case Key": {
+  "price": 19.95,
+  "volume": 2,
+  "ts": 1794254411,
+  "fails": 0
+ },
+ "Horizon Case": {
+  "price": 1.67,
+  "volume": 2841,
+  "ts": 1794257977,
+  "fails": 0
+ },
+ "Huntsman Weapon Case": {
+  "price": 8.81,
+  "volume": 72,
+  "ts": 1794254464,
+  "fails": 0
+ },
+ "Katowice 2019 Legends Autograph Capsule": {
+  "price": 4.84,
+  "volume": 17,
+  "ts": 1794254549,
+  "fails": 0
+ },
+ "Katowice 2019 Minor Challengers Autograph Capsule": {
+  "price": 6.07,
+  "volume": 4,
+  "ts": 1794254502,
+  "fails": 0
+ },
+ "Kilowatt Case": {
+  "price": 0.12,
+  "volume": 84051,
+  "ts": 1794167540,
+  "fails": 0
+ },
+ "Lt. Commander Ricksaw | NSWC SEAL": {
+  "price": 15.07,
+  "volume": 93,
+  "ts": 1794254426,
+  "fails": 0
+ },
+ "M249 | Downtown (Field-Tested)": {
+  "price": 0.41,
+  "volume": 149,
+  "ts": 1794222413,
+  "fails": 0
+ },
+ "M249 | O.S.I.P.R. (Field-Tested)": {
+  "price": 0.32,
+  "volume": 83,
+  "ts": 1794225772,
+  "fails": 0
+ },
+ "M4A1-S | Black Lotus (Field-Tested)": {
+  "price": 4.23,
+  "volume": 470,
+  "ts": 1794254605,
+  "fails": 0
+ },
+ "M4A1-S | Black Lotus (Minimal Wear)": {
+  "price": 6.74,
+  "volume": 168,
+  "ts": 1794254499,
+  "fails": 0
+ },
+ "M4A1-S | Emphorosaur-S (Field-Tested)": {
+  "price": 0.54,
+  "volume": 963,
+  "ts": 1794222299,
+  "fails": 0
+ },
+ "M4A1-S | Emphorosaur-S (Minimal Wear)": {
+  "price": 0.93,
+  "volume": 280,
+  "ts": 1794258073,
+  "fails": 0
+ },
+ "M4A1-S | Mud-Spec (Field-Tested)": {
+  "price": 0.32,
+  "volume": 287,
+  "ts": 1794225701,
+  "fails": 0
+ },
+ "M4A1-S | Mud-Spec (Minimal Wear)": {
+  "price": 0.65,
+  "volume": 93,
+  "ts": 1794222215,
+  "fails": 0
+ },
+ "M4A1-S | Night Terror (Battle-Scarred)": {
+  "price": 0.7,
+  "volume": 257,
+  "ts": 1794222162,
+  "fails": 0
+ },
+ "M4A1-S | Night Terror (Field-Tested)": {
+  "price": 0.66,
+  "volume": 1046,
+  "ts": 1794222218,
+  "fails": 0
+ },
+ "Austin 2025 Contenders Sticker Capsule": {
+  "price": 0.21,
+  "volume": 658,
+  "ts": 1794225878,
+  "fails": 0
+ },
+ "Desert Eagle | Mulberry (Minimal Wear)": {
+  "price": 7.2,
+  "volume": 79,
+  "ts": 1794254490,
+  "fails": 0
+ },
+ "FAMAS | Yeti Camo (Field-Tested)": {
+  "price": 0.2,
+  "volume": 353,
+  "ts": 1794225865,
+  "fails": 0
+ },
+ "Galil AR | Green Apple (Factory New)": {
+  "price": 0.21,
+  "volume": 269,
+  "ts": 1794225862,
+  "fails": 0
+ },
+ "M4A1-S | Night Terror (Minimal Wear)": {
+  "price": 0.86,
+  "volume": 338,
+  "ts": 1794258107,
+  "fails": 0
+ },
+ "M4A1-S | Nitro (Field-Tested)": {
+  "price": 0.46,
+  "volume": 480,
+  "ts": 1794222345,
+  "fails": 0
+ },
+ "M4A1-S | Solitude (Field-Tested)": {
+  "price": 1.73,
+  "volume": 409,
+  "ts": 1794257984,
+  "fails": 0
+ },
+ "M4A1-S | Solitude (Minimal Wear)": {
+  "price": 4.3,
+  "volume": 131,
+  "ts": 1794254621,
+  "fails": 0
+ },
+ "M4A1-S | VariCamo (Field-Tested)": {
+  "price": 0.27,
+  "volume": 183,
+  "ts": 1794225828,
+  "fails": 0
+ },
+ "M4A1-S | VariCamo (Minimal Wear)": {
+  "price": 0.43,
+  "volume": 63,
+  "ts": 1794222339,
+  "fails": 0
+ },
+ "M4A1-S | Wash me plz (Factory New)": {
+  "price": 0.31,
+  "volume": 169,
+  "ts": 1794225750,
+  "fails": 0
+ },
+ "M4A4 | Etch Lord (Battle-Scarred)": {
+  "price": 0.39,
+  "volume": 178,
+  "ts": 1794225660,
+  "fails": 0
+ },
+ "M4A4 | Etch Lord (Field-Tested)": {
+  "price": 0.47,
+  "volume": 471,
+  "ts": 1794222416,
+  "fails": 0
+ },
+ "M4A4 | Etch Lord (Well-Worn)": {
+  "price": 0.4,
+  "volume": 224,
+  "ts": 1794225669,
+  "fails": 0
+ },
+ "M4A4 | Magnesium (Battle-Scarred)": {
+  "price": 0.28,
+  "volume": 53,
+  "ts": 1794225816,
+  "fails": 0
+ },
+ "M4A4 | Magnesium (Field-Tested)": {
+  "price": 0.51,
+  "volume": 164,
+  "ts": 1794222305,
+  "fails": 0
+ },
+ "M4A4 | Magnesium (Well-Worn)": {
+  "price": 0.28,
+  "volume": 130,
+  "ts": 1794225794,
+  "fails": 0
+ },
+ "M4A4 | Tooth Fairy (Field-Tested)": {
+  "price": 3.8,
+  "volume": 176,
+  "ts": 1794254652,
+  "fails": 0
+ },
+ "M4A4 | Turbine (Field-Tested)": {
+  "price": 1.15,
+  "volume": 72,
+  "ts": 1794258027,
+  "fails": 0
+ },
+ "MAC-10 | Allure (Battle-Scarred)": {
+  "price": 0.42,
+  "volume": 73,
+  "ts": 1794225663,
+  "fails": 0
+ },
+ "MAC-10 | Allure (Field-Tested)": {
+  "price": 0.39,
+  "volume": 128,
+  "ts": 1794222376,
+  "fails": 0
+ },
+ "MAC-10 | Allure (Well-Worn)": {
+  "price": 0.4,
+  "volume": 80,
+  "ts": 1794222419,
+  "fails": 0
+ },
+ "MAC-10 | Button Masher (Field-Tested)": {
+  "price": 0.41,
+  "volume": 32,
+  "ts": 1794222422,
+  "fails": 0
+ },
+ "MAC-10 | Disco Tech (Field-Tested)": {
+  "price": 5.8,
+  "volume": 45,
+  "ts": 1794254518,
+  "fails": 0
+ },
+ "MAC-10 | Oceanic (Field-Tested)": {
+  "price": 0.34,
+  "volume": 150,
+  "ts": 1794225775,
+  "fails": 0
+ },
+ "MAC-10 | Pipe Down (Field-Tested)": {
+  "price": 0.53,
+  "volume": 45,
+  "ts": 1794222252,
+  "fails": 0
+ },
+ "MAC-10 | Pipsqueak (Field-Tested)": {
+  "price": 0.29,
+  "volume": 161,
+  "ts": 1794225778,
+  "fails": 0
+ },
+ "MAC-10 | Sakkaku (Battle-Scarred)": {
+  "price": 0.37,
+  "volume": 180,
+  "ts": 1794225704,
+  "fails": 0
+ },
+ "MAC-10 | Sakkaku (Field-Tested)": {
+  "price": 0.74,
+  "volume": 403,
+  "ts": 1794222172,
+  "fails": 0
+ },
+ "MAC-10 | Sakkaku (Well-Worn)": {
+  "price": 0.38,
+  "volume": 269,
+  "ts": 1794225707,
+  "fails": 0
+ },
+ "MAG-7 | Carbon Fiber (Factory New)": {
+  "price": 2.24,
+  "volume": 14,
+  "ts": 1794257928,
+  "fails": 0
+ },
+ "MAG-7 | Foresight (Factory New)": {
+  "price": 0.25,
+  "volume": 121,
+  "ts": 1794225847,
+  "fails": 0
+ },
+ "MAG-7 | Monster Call (Battle-Scarred)": {
+  "price": 0.41,
+  "volume": 53,
+  "ts": 1794222425,
+  "fails": 0
+ },
+ "MAG-7 | Monster Call (Field-Tested)": {
+  "price": 0.46,
+  "volume": 159,
+  "ts": 1794222348,
+  "fails": 0
+ },
+ "MAG-7 | Monster Call (Well-Worn)": {
+  "price": 0.41,
+  "volume": 74,
+  "ts": 1794222388,
+  "fails": 0
+ },
+ "MP5-SD | Kitbash (Field-Tested)": {
+  "price": 0.38,
+  "volume": 169,
+  "ts": 1794225626,
+  "fails": 0
+ },
+ "MP5-SD | Nitro (Field-Tested)": {
+  "price": 1.93,
+  "volume": 1,
+  "ts": 1794257944,
+  "fails": 0
+ },
+ "MP5-SD | Phosphor (Field-Tested)": {
+  "price": 4.5,
+  "volume": 28,
+  "ts": 1794254577,
+  "fails": 0
+ },
+ "MP7 | Abyssal Apparition (Field-Tested)": {
+  "price": 5.88,
+  "volume": 183,
+  "ts": 1794254515,
+  "fails": 0
+ },
+ "MP7 | Abyssal Apparition (Well-Worn)": {
+  "price": 5.63,
+  "volume": 92,
+  "ts": 1794254527,
+  "fails": 0
+ },
+ "MP7 | Anodized Navy (Factory New)": {
+  "price": 0.89,
+  "volume": 55,
+  "ts": 1794258092,
+  "fails": 0
+ },
+ "MP7 | Cirrus (Field-Tested)": {
+  "price": 0.8,
+  "volume": 78,
+  "ts": 1794216146,
+  "fails": 0
+ },
+ "MP7 | Fade (Factory New)": {
+  "price": 10.75,
+  "volume": 16,
+  "ts": 1794254442,
+  "fails": 0
+ },
+ "MP7 | Just Smile (Battle-Scarred)": {
+  "price": 0.38,
+  "volume": 139,
+  "ts": 1794225682,
+  "fails": 0
+ },
+ "MP7 | Just Smile (Field-Tested)": {
+  "price": 0.47,
+  "volume": 346,
+  "ts": 1794222391,
+  "fails": 0
+ },
+ "MP7 | Just Smile (Well-Worn)": {
+  "price": 0.37,
+  "volume": 149,
+  "ts": 1794225629,
+  "fails": 0
+ },
+ "MP9 | Arctic Tri-Tone (Factory New)": {
+  "price": 5.21,
+  "volume": 12,
+  "ts": 1794254543,
+  "fails": 0
+ },
+ "MP9 | Army Sheen (Factory New)": {
+  "price": 1.15,
+  "volume": 11,
+  "ts": 1794258039,
+  "fails": 0
+ },
+ "MP9 | Bioleak (Field-Tested)": {
+  "price": 0.37,
+  "volume": 32,
+  "ts": 1794225673,
+  "fails": 0
+ },
+ "MP9 | Modest Threat (Field-Tested)": {
+  "price": 0.36,
+  "volume": 147,
+  "ts": 1794225753,
+  "fails": 0
+ },
+ "Michael Syfers  | FBI Sniper": {
+  "price": 10.76,
+  "volume": 99,
+  "ts": 1794254452,
+  "fails": 0
+ },
+ "Name Tag": {
+  "price": 4.33,
+  "volume": 74,
+  "ts": 1794254596,
+  "fails": 0
+ },
+ "Negev | Man-o'-war (Minimal Wear)": {
+  "price": 0.25,
+  "volume": 77,
+  "ts": 1794225797,
+  "fails": 0
+ },
+ "Negev | dev_texture (Field-Tested)": {
+  "price": 0.43,
+  "volume": 59,
+  "ts": 1794222351,
+  "fails": 0
+ },
+ "Nova | Candy Apple (Factory New)": {
+  "price": 0.21,
+  "volume": 90,
+  "ts": 1794225850,
+  "fails": 0
+ },
+ "Nova | Rising Sun (Battle-Scarred)": {
+  "price": 0.39,
+  "volume": 36,
+  "ts": 1794222429,
+  "fails": 0
+ },
+ "Nova | Rising Sun (Field-Tested)": {
+  "price": 0.48,
+  "volume": 142,
+  "ts": 1794222308,
+  "fails": 0
+ },
+ "Nova | Rising Sun (Well-Worn)": {
+  "price": 0.4,
+  "volume": 42,
+  "ts": 1794222432,
+  "fails": 0
+ },
+ "Nova | Windblown (Factory New)": {
+  "price": 0.4,
+  "volume": 37,
+  "ts": 1794222435,
+  "fails": 0
+ },
+ "Nova | Yorkshire (Field-Tested)": {
+  "price": 0.28,
+  "volume": 101,
+  "ts": 1794225800,
+  "fails": 0
+ },
+ "Operation Broken Fang Case": {
+  "price": 5.92,
+  "volume": 708,
+  "ts": 1794254508,
+  "fails": 0
+ },
+ "Operation Hydra Case": {
+  "price": 27.18,
+  "volume": 32,
+  "ts": 1794254404,
+  "fails": 0
+ },
+ "Operation Hydra Case Key": {
+  "price": 2.61,
+  "volume": 17,
+  "ts": 1794257907,
+  "fails": 0
+ },
+ "Operation Phoenix Weapon Case": {
+  "price": 4.18,
+  "volume": 1118,
+  "ts": 1794254624,
+  "fails": 0
+ },
+ "Operation Riptide Case": {
+  "price": 7.36,
+  "volume": 217,
+  "ts": 1794254486,
+  "fails": 0
+ },
+ "Operation Vanguard Weapon Case": {
+  "price": 5.02,
+  "volume": 198,
+  "ts": 1794254546,
+  "fails": 0
+ },
+ "Operation Wildfire Case": {
+  "price": 2.93,
+  "volume": 648,
+  "ts": 1794257866,
+  "fails": 0
+ },
+ "Operator | FBI SWAT": {
+  "price": 10.99,
+  "volume": 98,
+  "ts": 1794257832,
+  "fails": 0
+ },
+ "Osiris | Elite Crew": {
+  "price": 9.26,
+  "volume": 77,
+  "ts": 1794254471,
+  "fails": 0
+ },
+ "P2000 | Wicked Sick (Field-Tested)": {
+  "price": 3.18,
+  "volume": 133,
+  "ts": 1794254671,
+  "fails": 0
+ },
+ "P250 | Asiimov (Field-Tested)": {
+  "price": 11.88,
+  "volume": 24,
+  "ts": 1794254436,
+  "fails": 0
+ },
+ "P250 | Cyber Shell (Field-Tested)": {
+  "price": 0.4,
+  "volume": 97,
+  "ts": 1794222438,
+  "fails": 0
+ },
+ "P250 | Valence (Field-Tested)": {
+  "price": 0.34,
+  "volume": 137,
+  "ts": 1794225741,
+  "fails": 0
+ },
+ "P250 | Verdigris (Field-Tested)": {
+  "price": 0.38,
+  "volume": 117,
+  "ts": 1794225685,
+  "fails": 0
+ },
+ "P250 | Visions (Field-Tested)": {
+  "price": 3.69,
+  "volume": 72,
+  "ts": 1794254649,
+  "fails": 0
+ },
+ "P250 | X-Ray (Minimal Wear)": {
+  "price": 0.43,
+  "volume": 144,
+  "ts": 1794222354,
+  "fails": 0
+ },
+ "P90 | Grim (Field-Tested)": {
+  "price": 0.36,
+  "volume": 98,
+  "ts": 1794225666,
+  "fails": 0
+ },
+ "P90 | Neoqueen (Field-Tested)": {
+  "price": 0.37,
+  "volume": 358,
+  "ts": 1794225688,
+  "fails": 0
+ },
+ "P90 | Off World (Field-Tested)": {
+  "price": 0.35,
+  "volume": 57,
+  "ts": 1794225722,
+  "fails": 0
+ },
+ "P90 | Randy Rush (Field-Tested)": {
+  "price": 0.52,
+  "volume": 55,
+  "ts": 1794222274,
+  "fails": 0
+ },
+ "P90 | Vent Rush (Field-Tested)": {
+  "price": 0.39,
+  "volume": 138,
+  "ts": 1794225632,
+  "fails": 0
+ },
+ "P90 | Vent Rush (Minimal Wear)": {
+  "price": 0.62,
+  "volume": 36,
+  "ts": 1794222206,
+  "fails": 0
+ },
+ "P90 | Wave Breaker (Battle-Scarred)": {
+  "price": 0.46,
+  "volume": 29,
+  "ts": 1794222441,
+  "fails": 0
+ },
+ "P90 | Wave Breaker (Field-Tested)": {
+  "price": 0.46,
+  "volume": 231,
+  "ts": 1794222357,
+  "fails": 0
+ },
+ "P90 | Wave Breaker (Well-Worn)": {
+  "price": 0.46,
+  "volume": 43,
+  "ts": 1794222394,
+  "fails": 0
+ },
+ "PP-Bizon | Space Cat (Field-Tested)": {
+  "price": 0.57,
+  "volume": 369,
+  "ts": 1794222277,
+  "fails": 0
+ },
+ "PP-Bizon | Space Cat (Minimal Wear)": {
+  "price": 0.74,
+  "volume": 168,
+  "ts": 1794222221,
+  "fails": 0
+ },
+ "Paris 2023 Ancient Souvenir Package": {
+  "price": 3.4,
+  "volume": 93,
+  "ts": 1794254680,
+  "fails": 0
+ },
+ "Paris 2023 Anubis Souvenir Package": {
+  "price": 2.23,
+  "volume": 136,
+  "ts": 1794257919,
+  "fails": 0
+ },
+ "Paris 2023 Mirage Souvenir Package": {
+  "price": 3.04,
+  "volume": 424,
+  "ts": 1794257873,
+  "fails": 0
+ },
+ "Paris 2023 Overpass Souvenir Package": {
+  "price": 2.53,
+  "volume": 50,
+  "ts": 1794257910,
+  "fails": 0
+ },
+ "Prisma 2 Case": {
+  "price": 1.12,
+  "volume": 5879,
+  "ts": 1794258030,
+  "fails": 0
+ },
+ "Prisma Case": {
+  "price": 1.15,
+  "volume": 4826,
+  "ts": 1794258021,
+  "fails": 0
+ },
+ "R8 Revolver | Banana Cannon (Field-Tested)": {
+  "price": 0.41,
+  "volume": 236,
+  "ts": 1794222444,
+  "fails": 0
+ },
+ "R8 Revolver | Blaze (Factory New)": {
+  "price": 2.8,
+  "volume": 38,
+  "ts": 1794257857,
+  "fails": 0
+ },
+ "R8 Revolver | Crazy 8 (Field-Tested)": {
+  "price": 0.46,
+  "volume": 142,
+  "ts": 1794222367,
+  "fails": 0
+ },
+ "R8 Revolver | Crazy 8 (Well-Worn)": {
+  "price": 0.41,
+  "volume": 68,
+  "ts": 1794222398,
+  "fails": 0
+ },
+ "R8 Revolver | Tango (Field-Tested)": {
+  "price": 0.35,
+  "volume": 99,
+  "ts": 1794225635,
+  "fails": 0
+ },
+ "Recoil Case": {
+  "price": 0.27,
+  "volume": 14684,
+  "ts": 1794225819,
+  "fails": 0
+ },
+ "Revolution Case": {
+  "price": 0.18,
+  "volume": 110117,
+  "ts": 1794225872,
+  "fails": 0
+ },
+ "Revolver Case": {
+  "price": 2.95,
+  "volume": 1289,
+  "ts": 1794257879,
+  "fails": 0
+ },
+ "Rio 2022 Dust II Souvenir Package": {
+  "price": 3.3,
+  "volume": 480,
+  "ts": 1794257845,
+  "fails": 0
+ },
+ "SCAR-20 | Enforcer (Field-Tested)": {
+  "price": 0.65,
+  "volume": 40,
+  "ts": 1794222184,
+  "fails": 0
+ },
+ "SCAR-20 | Poultrygeist (Factory New)": {
+  "price": 0.23,
+  "volume": 261,
+  "ts": 1794225853,
+  "fails": 0
+ },
+ "SG 553 | Anodized Navy (Factory New)": {
+  "price": 0.39,
+  "volume": 49,
+  "ts": 1794225638,
+  "fails": 0
+ },
+ "SG 553 | Danger Close (Field-Tested)": {
+  "price": 0.35,
+  "volume": 208,
+  "ts": 1794225725,
+  "fails": 0
+ },
+ "SG 553 | Dragon Tech (Field-Tested)": {
+  "price": 0.4,
+  "volume": 198,
+  "ts": 1794222401,
+  "fails": 0
+ },
+ "SSG 08 | Acid Fade (Factory New)": {
+  "price": 0.71,
+  "volume": 362,
+  "ts": 1794222187,
+  "fails": 0
+ },
+ "SSG 08 | Memorial (Minimal Wear)": {
+  "price": 0.23,
+  "volume": 192,
+  "ts": 1794225831,
+  "fails": 0
+ },
+ "SSG 08 | Zeno (Factory New)": {
+  "price": 0.93,
+  "volume": 41,
+  "ts": 1794258098,
+  "fails": 0
+ },
+ "SSG 08 | Zeno (Field-Tested)": {
+  "price": 0.28,
+  "volume": 148,
+  "ts": 1794225782,
+  "fails": 0
+ },
+ "Sawed-Off | Analog Input (Field-Tested)": {
+  "price": 0.37,
+  "volume": 409,
+  "ts": 1794225691,
+  "fails": 0
+ },
+ "Sawed-Off | Analog Input (Minimal Wear)": {
+  "price": 0.6,
+  "volume": 115,
+  "ts": 1794222280,
+  "fails": 0
+ },
+ "Sawed-Off | Black Sand (Field-Tested)": {
+  "price": 0.32,
+  "volume": 59,
+  "ts": 1794225757,
+  "fails": 0
+ },
+ "Sawed-Off | Kiss♥Love (Field-Tested)": {
+  "price": 3.59,
+  "volume": 47,
+  "ts": 1794254655,
+  "fails": 0
+ },
+ "Sealed Dead Hand Terminal": {
+  "price": 0.23,
+  "volume": 39425,
+  "ts": 1794225834,
+  "fails": 0
+ },
+ "Sealed Genesis Terminal": {
+  "price": 0.06,
+  "volume": 44549,
+  "ts": 1794170865,
+  "fails": 0
+ },
+ "Shadow Case": {
+  "price": 1.85,
+  "volume": 1149,
+  "ts": 1794257953,
+  "fails": 0
+ },
+ "Shanghai 2024 Challengers Sticker Capsule": {
+  "price": 0.35,
+  "volume": 53,
+  "ts": 1794225710,
+  "fails": 0
+ },
+ "Shanghai 2024 Contenders Sticker Capsule": {
+  "price": 0.39,
+  "volume": 632,
+  "ts": 1794225642,
+  "fails": 0
+ },
+ "Shanghai 2024 Legends Sticker Capsule": {
+  "price": 0.6,
+  "volume": 235,
+  "ts": 1794222227,
+  "fails": 0
+ },
+ "Shanghai 2024 Mirage Souvenir Package": {
+  "price": 3.99,
+  "volume": 2,
+  "ts": 1794257838,
+  "fails": 0
+ },
+ "Shattered Web Case": {
+  "price": 4.71,
+  "volume": 274,
+  "ts": 1794254555,
+  "fails": 0
+ },
+ "Snakebite Case": {
+  "price": 0.36,
+  "volume": 7001,
+  "ts": 1794225713,
+  "fails": 0
+ },
+ "Souvenir MAC-10 | Urban DDPAT (Field-Tested)": {
+  "price": 0.5,
+  "volume": 2,
+  "ts": 1794222320,
+  "fails": 0
+ },
+ "Souvenir MP5-SD | Lab Rats (Minimal Wear)": {
+  "price": 0.34,
+  "volume": 130,
+  "ts": 1794225729,
+  "fails": 0
+ },
+ "Special Agent Ava | FBI": {
+  "price": 19.49,
+  "volume": 61,
+  "ts": 1794254423,
+  "fails": 0
+ },
+ "Spectrum 2 Case": {
+  "price": 3.25,
+  "volume": 3414,
+  "ts": 1794254668,
+  "fails": 0
+ },
+ "Spectrum Case": {
+  "price": 3.88,
+  "volume": 1254,
+  "ts": 1794254639,
+  "fails": 0
+ },
+ "Spectrum Case Key": {
+  "price": 14.08,
+  "volume": 2,
+  "ts": 1794254433,
+  "fails": 0
+ },
+ "StatTrak™ Five-SeveN | Hybrid (Field-Tested)": {
+  "price": 0.78,
+  "volume": 31,
+  "ts": 1794258126,
+  "fails": 0
+ },
+ "StatTrak™ G3SG1 | Dream Glade (Field-Tested)": {
+  "price": 0.57,
+  "volume": 49,
+  "ts": 1794222255,
+  "fails": 0
+ },
+ "StatTrak™ Galil AR | Connexion (Field-Tested)": {
+  "price": 0.7,
+  "volume": 66,
+  "ts": 1794222196,
+  "fails": 0
+ },
+ "StatTrak™ Galil AR | Control (Field-Tested)": {
+  "price": 0.77,
+  "volume": 46,
+  "ts": 1794216140,
+  "fails": 0
+ },
+ "StatTrak™ Glock-18 | Block-18 (Field-Tested)": {
+  "price": 1.01,
+  "volume": 97,
+  "ts": 1794258067,
+  "fails": 0
+ },
+ "StatTrak™ Glock-18 | Oxide Blaze (Field-Tested)": {
+  "price": 0.3,
+  "volume": 83,
+  "ts": 1794225760,
+  "fails": 0
+ },
+ "StatTrak™ M4A1-S | Emphorosaur-S (Field-Tested)": {
+  "price": 0.98,
+  "volume": 136,
+  "ts": 1794258052,
+  "fails": 0
+ },
+ "StatTrak™ M4A1-S | Night Terror (Field-Tested)": {
+  "price": 1.18,
+  "volume": 216,
+  "ts": 1794258033,
+  "fails": 0
+ },
+ "StatTrak™ MP5-SD | Kitbash (Field-Tested)": {
+  "price": 0.57,
+  "volume": 32,
+  "ts": 1794222261,
+  "fails": 0
+ },
+ "StatTrak™ Music Kit | Beartooth, Aggressive": {
+  "price": 0.97,
+  "volume": 37,
+  "ts": 1794258080,
+  "fails": 0
+ },
+ "StatTrak™ Music Kit | Hundredth, FREE": {
+  "price": 0.84,
+  "volume": 42,
+  "ts": 1794258114,
+  "fails": 0
+ },
+ "StatTrak™ Music Kit | Skog, III-Arena": {
+  "price": 0.75,
+  "volume": 36,
+  "ts": 1794222175,
+  "fails": 0
+ },
+ "StatTrak™ Nova | Rising Sun (Field-Tested)": {
+  "price": 0.8,
+  "volume": 29,
+  "ts": 1794222156,
+  "fails": 0
+ },
+ "StatTrak™ P90 | Vent Rush (Field-Tested)": {
+  "price": 0.62,
+  "volume": 37,
+  "ts": 1794222234,
+  "fails": 0
+ },
+ "StatTrak™ P90 | Wave Breaker (Field-Tested)": {
+  "price": 0.7,
+  "volume": 27,
+  "ts": 1794222178,
+  "fails": 0
+ },
+ "StatTrak™ PP-Bizon | Space Cat (Field-Tested)": {
+  "price": 0.55,
+  "volume": 57,
+  "ts": 1794222265,
+  "fails": 0
+ },
+ "StatTrak™ SSG 08 | Memorial (Field-Tested)": {
+  "price": 0.23,
+  "volume": 93,
+  "ts": 1794225856,
+  "fails": 0
+ },
+ "StatTrak™ Swap Tool": {
+  "price": 1.23,
+  "volume": 69,
+  "ts": 1794258042,
+  "fails": 0
+ },
+ "StatTrak™ USP-S | PC-GRN (Field-Tested)": {
+  "price": 0.28,
+  "volume": 135,
+  "ts": 1794225837,
+  "fails": 0
+ },
+ "StatTrak™ USP-S | Ticket to Hell (Field-Tested)": {
+  "price": 0.76,
+  "volume": 248,
+  "ts": 1794222165,
+  "fails": 0
+ },
+ "StatTrak™ XM1014 | Zombie Offensive (Field-Tested)": {
+  "price": 0.53,
+  "volume": 59,
+  "ts": 1794222289,
+  "fails": 0
+ },
+ "StatTrak™ Zeus x27 | Tosai (Field-Tested)": {
+  "price": 0.74,
+  "volume": 50,
+  "ts": 1794216143,
+  "fails": 0
+ },
+ "Sticker Capsule": {
+  "price": 0.63,
+  "volume": 64,
+  "ts": 1794222268,
+  "fails": 0
+ },
+ "Sticker Capsule 2": {
+  "price": 14.23,
+  "volume": 72,
+  "ts": 1794225918,
+  "fails": 2,
+  "ts_fail": 1794257829
+ },
+ "Sticker | 00 Nation | Rio 2022": {
+  "price": 0.07,
+  "volume": 53,
+  "ts": 1794225903,
+  "fails": 0
+ },
+ "Sticker | 9INE (Glitter) | Paris 2023": {
+  "price": 0.09,
+  "volume": 179,
+  "ts": 1794225890,
+  "fails": 0
+ },
+ "Sticker | 9INE (Holo) | Paris 2023": {
+  "price": 0.99,
+  "volume": 39,
+  "ts": 1794258070,
+  "fails": 0
+ },
+ "Sticker | 9z Team (Glitter) | Antwerp 2022": {
+  "price": 1.43,
+  "volume": 14,
+  "ts": 1794257990,
+  "fails": 0
+ },
+ "Sticker | 9z Team | Antwerp 2022": {
+  "price": 0.28,
+  "volume": 111,
+  "ts": 1794225806,
+  "fails": 0
+ },
+ "Sticker | Ancient Beast (Foil)": {
+  "price": 1.24,
+  "volume": 14,
+  "ts": 1794258011,
+  "fails": 0
+ },
+ "Sticker | Apeks (Holo) | Paris 2023": {
+  "price": 1.26,
+  "volume": 25,
+  "ts": 1794257999,
+  "fails": 0
+ },
+ "Sticker | Astralis | Antwerp 2022": {
+  "price": 0.07,
+  "volume": 71,
+  "ts": 1794225906,
+  "fails": 0
+ },
+ "Sticker | Bad News Eagles | Antwerp 2022": {
+  "price": 0.03,
+  "volume": 31,
+  "ts": 1794225909,
+  "fails": 0
+ },
+ "Sticker | Battle Scarred": {
+  "price": 3.84,
+  "volume": 24,
+  "ts": 1794254646,
+  "fails": 0
+ },
+ "Sticker | Battle Scarred (Holo)": {
+  "price": 8.34,
+  "volume": 12,
+  "ts": 1794254474,
+  "fails": 0
+ },
+ "Sticker | Blue Gem (Glitter)": {
+  "price": 2.61,
+  "volume": 14,
+  "ts": 1794257869,
+  "fails": 0
+ },
+ "Sticker | Bolt Charge (Foil)": {
+  "price": 2.08,
+  "volume": 86,
+  "ts": 1794257934,
+  "fails": 0
+ },
+ "Sticker | Bolt Energy (Foil)": {
+  "price": 0.72,
+  "volume": 103,
+  "ts": 1794222159,
+  "fails": 0
+ },
+ "Sticker | Bolt Strike (Foil)": {
+  "price": 1.79,
+  "volume": 55,
+  "ts": 1794257959,
+  "fails": 0
+ },
+ "Sticker | Broken Fang": {
+  "price": 1.31,
+  "volume": 32,
+  "ts": 1794258015,
+  "fails": 0
+ },
+ "Sticker | Chrome Dome (Holo)": {
+  "price": 2.42,
+  "volume": 65,
+  "ts": 1794257913,
+  "fails": 0
+ },
+ "Sticker | Cloud9 (Holo) | Antwerp 2022": {
+  "price": 8.48,
+  "volume": 13,
+  "ts": 1794254468,
+  "fails": 0
+ },
+ "Sticker | Cloud9 | Antwerp 2022": {
+  "price": 0.08,
+  "volume": 91,
+  "ts": 1794225893,
+  "fails": 0
+ },
+ "Sticker | Copenhagen Flames (Holo) | Stockholm 2021": {
+  "price": 5.26,
+  "volume": 10,
+  "ts": 1794254530,
+  "fails": 0
+ },
+ "Sticker | Enemy Spotted (Holo)": {
+  "price": 0.94,
+  "volume": 13,
+  "ts": 1794258086,
+  "fails": 0
+ },
+ "Sticker | Entropiq | Stockholm 2021": {
+  "price": 0.15,
+  "volume": 9,
+  "ts": 1794225887,
+  "fails": 0
+ },
+ "Sticker | Evil Geniuses (Holo) | Stockholm 2021": {
+  "price": 3.96,
+  "volume": 13,
+  "ts": 1794209905,
+  "fails": 2,
+  "ts_fail": 1794257841
+ },
+ "Sticker | FURIA (Holo) | Paris 2023": {
+  "price": 1.87,
+  "volume": 35,
+  "ts": 1794257947,
+  "fails": 0
+ },
+ "Sticker | FURIA (Holo) | Stockholm 2021": {
+  "price": 4.5,
+  "volume": 12,
+  "ts": 1794254552,
+  "fails": 0
+ },
+ "Sticker | FaZe Clan (Glitter) | Antwerp 2022": {
+  "price": 0.54,
+  "volume": 18,
+  "ts": 1794222292,
+  "fails": 0
+ },
+ "Sticker | FaZe Clan (Holo) | Paris 2023": {
+  "price": 1.07,
+  "volume": 37,
+  "ts": 1794258055,
+  "fails": 0
+ },
+ "Sticker | FaZe Clan | Stockholm 2021": {
+  "price": 0.2,
+  "volume": 9,
+  "ts": 1794225868,
+  "fails": 0
+ },
+ "Sticker | Flex": {
+  "price": 1.09,
+  "volume": 134,
+  "ts": 1794258064,
+  "fails": 0
+ },
+ "Sticker | Fluxo (Gold) | Paris 2023": {
+  "price": 1.56,
+  "volume": 13,
+  "ts": 1794257968,
+  "fails": 0
+ },
+ "Sticker | Fluxo (Holo) | Paris 2023": {
+  "price": 1.35,
+  "volume": 77,
+  "ts": 1794258002,
+  "fails": 0
+ },
+ "Sticker | Fnatic (Holo) | Paris 2023": {
+  "price": 0.71,
+  "volume": 74,
+  "ts": 1794222190,
+  "fails": 0
+ },
+ "Sticker | G2 Esports (Gold) | Paris 2023": {
+  "price": 1.72,
+  "volume": 1,
+  "ts": 1794257965,
+  "fails": 0
+ },
+ "Sticker | G2 Esports (Holo) | Stockholm 2021": {
+  "price": 2.76,
+  "volume": 8,
+  "ts": 1794257891,
+  "fails": 0
+ },
+ "Sticker | GODSENT (Holo) | Stockholm 2021": {
+  "price": 5.36,
+  "volume": 6,
+  "ts": 1794254536,
+  "fails": 0
+ },
+ "Sticker | GamerLegion (Holo) | Paris 2023": {
+  "price": 0.97,
+  "volume": 18,
+  "ts": 1794258089,
+  "fails": 0
+ },
+ "Sticker | Gold Web": {
+  "price": 0.72,
+  "volume": 85,
+  "ts": 1794222193,
+  "fails": 0
+ },
+ "Sticker | Gold Web (Foil)": {
+  "price": 4.14,
+  "volume": 8,
+  "ts": 1794254608,
+  "fails": 0
+ },
+ "Sticker | Grayhound Gaming (Holo) | Paris 2023": {
+  "price": 0.37,
+  "volume": 46,
+  "ts": 1794225645,
+  "fails": 0
+ },
+ "Sticker | Great Wave (Holo)": {
+  "price": 7.9,
+  "volume": 1,
+  "ts": 1794254483,
+  "fails": 0
+ },
+ "Sticker | High Heat": {
+  "price": 0.66,
+  "volume": 582,
+  "ts": 1794222209,
+  "fails": 0
+ },
+ "Sticker | Hot Rod Heat": {
+  "price": 0.08,
+  "volume": 309,
+  "ts": 1794225896,
+  "fails": 0
+ },
+ "Sticker | Hypnoteyes (Holo)": {
+  "price": 0.82,
+  "volume": 62,
+  "ts": 1794258117,
+  "fails": 0
+ },
+ "Sticker | Into The Breach (Holo) | Paris 2023": {
+  "price": 0.4,
+  "volume": 30,
+  "ts": 1794222404,
+  "fails": 0
+ },
+ "Sticker | Kill Count": {
+  "price": 0.83,
+  "volume": 3,
+  "ts": 1794258120,
+  "fails": 0
+ },
+ "Sticker | Liquid Fire (Holo)": {
+  "price": 19.79,
+  "volume": 0,
+  "ts": 1794254414,
+  "fails": 0
+ },
+ "Sticker | MOUZ (Holo) | Paris 2023": {
+  "price": 0.99,
+  "volume": 52,
+  "ts": 1794258083,
+  "fails": 0
+ },
+ "Sticker | MOUZ | Stockholm 2021": {
+  "price": 0.15,
+  "volume": 110,
+  "ts": 1794174312,
+  "fails": 0
+ },
+ "Sticker | Mastermind (Holo)": {
+  "price": 0.99,
+  "volume": 3,
+  "ts": 1794258076,
+  "fails": 0
+ },
+ "Sticker | Natus Vincere (Glitter) | Shanghai 2024": {
+  "price": 0.21,
+  "volume": 58,
+  "ts": 1794225881,
+  "fails": 0
+ },
+ "Sticker | Natus Vincere (Holo) | Stockholm 2021": {
+  "price": 2.47,
+  "volume": 9,
+  "ts": 1794257916,
+  "fails": 0
+ },
+ "Sticker | Rainbow Route (Holo)": {
+  "price": 0.65,
+  "volume": 823,
+  "ts": 1794222230,
+  "fails": 0
+ },
+ "Sticker | Renegades (Holo) | Stockholm 2021": {
+  "price": 2.8,
+  "volume": 1,
+  "ts": 1794257876,
+  "fails": 0
+ },
+ "Sticker | Ruby Stream (Lenticular)": {
+  "price": 2.77,
+  "volume": 22,
+  "ts": 1794257897,
+  "fails": 0
+ },
+ "Sticker | Ruby Wave (Lenticular)": {
+  "price": 5.08,
+  "volume": 23,
+  "ts": 1794254539,
+  "fails": 0
+ },
+ "Sticker | Sharks Esports | Stockholm 2021": {
+  "price": 0.08,
+  "volume": 54,
+  "ts": 1794225899,
+  "fails": 0
+ },
+ "Sticker | Stone Scales (Foil)": {
+  "price": 3.99,
+  "volume": 10,
+  "ts": 1794254611,
+  "fails": 0
+ },
+ "Sticker | Taste Buddy (Holo)": {
+  "price": 3.45,
+  "volume": 45,
+  "ts": 1794254665,
+  "fails": 0
+ },
+ "Sticker | Team Liquid (Holo) | Stockholm 2021": {
+  "price": 3.5,
+  "volume": 2,
+  "ts": 1794254674,
+  "fails": 0
+ },
+ "Sticker | Virtus.Pro (Holo) | Stockholm 2021": {
+  "price": 4.69,
+  "volume": 17,
+  "ts": 1794209853,
+  "fails": 2,
+  "ts_fail": 1794257835
+ },
+ "Sticker | Winding Scorch (Foil)": {
+  "price": 1.75,
+  "volume": 101,
+  "ts": 1794257962,
+  "fails": 0
+ },
+ "Sticker | donk (Glitter, Champion) | Shanghai 2024": {
+  "price": 0.38,
+  "volume": 40,
+  "ts": 1794225694,
+  "fails": 0
+ },
+ "Sticker | electroNic (Holo) | Stockholm 2021": {
+  "price": 0.18,
+  "volume": 15,
+  "ts": 1794225875,
+  "fails": 0
+ },
+ "Sticker | s1mple (Holo) | Stockholm 2021": {
+  "price": 2.2,
+  "volume": 21,
+  "ts": 1794257940,
+  "fails": 0
+ },
+ "Stockholm 2021 Challengers Sticker Capsule": {
+  "fails": 1,
+  "ts_fail": 1794174364
+ },
+ "Stockholm 2021 Champions Autograph Capsule": {
+  "price": 0.81,
+  "volume": 244,
+  "ts": 1794258129,
+  "fails": 0
+ },
+ "Stockholm 2021 Contenders Sticker Capsule": {
+  "price": 1.56,
+  "volume": 82,
+  "ts": 1794257981,
+  "fails": 0
+ },
+ "Stockholm 2021 Dust II Souvenir Package": {
+  "price": 5.22,
+  "volume": 168,
+  "ts": 1794254593,
+  "fails": 0
+ },
+ "Stockholm 2021 Finalists Autograph Capsule": {
+  "price": 0.59,
+  "volume": 75,
+  "ts": 1794222224,
+  "fails": 0
+ },
+ "Stockholm 2021 Legends Patch Pack": {
+  "price": 2.93,
+  "volume": 3,
+  "ts": 1794257882,
+  "fails": 0
+ },
+ "Stockholm 2021 Legends Sticker Capsule": {
+  "price": 1.18,
+  "volume": 122,
+  "ts": 1794258024,
+  "fails": 0
+ },
+ "Stockholm 2021 Mirage Souvenir Package": {
+  "price": 4.3,
+  "volume": 37,
+  "ts": 1794254633,
+  "fails": 0
+ },
+ "Tec-9 | Bamboozle (Field-Tested)": {
+  "price": 0.6,
+  "volume": 70,
+  "ts": 1794222246,
+  "fails": 0
+ },
+ "Tec-9 | Brother (Field-Tested)": {
+  "price": 0.4,
+  "volume": 157,
+  "ts": 1794222407,
+  "fails": 0
+ },
+ "Tec-9 | Brother (Minimal Wear)": {
+  "price": 0.81,
+  "volume": 30,
+  "ts": 1794258111,
+  "fails": 0
+ },
+ "Tec-9 | Brother (Well-Worn)": {
+  "price": 0.4,
+  "volume": 45,
+  "ts": 1794222447,
+  "fails": 0
+ },
+ "Tec-9 | Cracked Opal (Battle-Scarred)": {
+  "price": 0.26,
+  "volume": 33,
+  "ts": 1794225822,
+  "fails": 0
+ },
+ "Tec-9 | Cracked Opal (Field-Tested)": {
+  "price": 0.36,
+  "volume": 54,
+  "ts": 1794225785,
+  "fails": 0
+ },
+ "Tec-9 | Red Quartz (Factory New)": {
+  "price": 0.4,
+  "volume": 110,
+  "ts": 1794222360,
+  "fails": 0
+ },
+ "Tec-9 | Red Quartz (Field-Tested)": {
+  "price": 0.31,
+  "volume": 553,
+  "ts": 1794225803,
+  "fails": 0
+ },
+ "Tec-9 | Red Quartz (Minimal Wear)": {
+  "price": 0.31,
+  "volume": 387,
+  "ts": 1794225788,
+  "fails": 0
+ },
+ "UMP-45 | Arctic Wolf (Field-Tested)": {
+  "price": 0.39,
+  "volume": 90,
+  "ts": 1794222450,
+  "fails": 0
+ },
+ "UMP-45 | Crimson Foil (Field-Tested)": {
+  "price": 2.13,
+  "volume": 41,
+  "ts": 1794215942,
+  "fails": 0
+ },
+ "UMP-45 | K.O. Factory (Field-Tested)": {
+  "price": 4.42,
+  "volume": 85,
+  "ts": 1794254580,
+  "fails": 0
+ },
+ "UMP-45 | K.O. Factory (Well-Worn)": {
+  "price": 4.08,
+  "volume": 34,
+  "ts": 1794254602,
+  "fails": 0
+ },
+ "M4A4 | Temukau (Field-Tested)": {
+  "price": 31.05,
+  "volume": 42,
+  "ts": 1794254401,
+  "fails": 0
+ }
+}

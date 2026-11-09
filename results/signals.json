@@ -1,0 +1,36 @@
+{
+ "updated": "2026-11-09T21:21:06Z",
+ "scanned": 200,
+ "signals": [
+  {
+   "strategy": "vols",
+   "slug": "will-bitcoin-reach-1000000-by-december-31-2026-946",
+   "question": "Will Bitcoin reach $1,000,000 by December 31, 2026?",
+   "outcome": "-",
+   "price": 0,
+   "edge": 0,
+   "note": "объём 24ч 21979 против среднего 5005",
+   "liq": 397975,
+   "v24": 21979,
+   "z": 0.0,
+   "end": "2027-01-01",
+   "days_left": 52.1,
+   "tradeable": false
+  },
+  {
+   "strategy": "vols",
+   "slug": "puffpaw-fdv-above-300m-one-day-after-launch",
+   "question": "Puffpaw FDV above $300M one day after launch?",
+   "outcome": "-",
+   "price": 0,
+   "edge": 0,
+   "note": "объём 24ч 77385 против среднего 22430",
+   "liq": 397110,
+   "v24": 77385,
+   "z": 0.0,
+   "end": "2027-01-01",
+   "days_left": 52.1,
+   "tradeable": false
+  }
+ ]
+}

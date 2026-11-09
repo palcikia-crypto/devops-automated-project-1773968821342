@@ -1,0 +1,8 @@
+== ARB SCAN START 2026-11-09T20:57:04+00:00
+Skinport catalog: 25047 items
+Steam queue: 20850 | budget: 100
+STOP: бюджет времени/запросов исчерпан
+Fetched: 95 | fails: 5 | 429: 0
+Deals: 391 | passing: 75 | best ROI: 73.9
+== ARB SCAN DONE
+2026-11-09T21:02:15Z

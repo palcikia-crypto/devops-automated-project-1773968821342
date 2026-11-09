@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#070a12">
+<title>Polymarket Lab</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#070a12; --card:#111726; --card2:#161e30; --border:rgba(255,255,255,.08); --text:#e6edf3; --dim:#8b949e; --green:#3fb950; --red:#f85149; --blue:#58a6ff; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--text); font-family:Inter,system-ui,sans-serif; padding:14px; padding-bottom:40px; max-width:760px; margin:0 auto; -webkit-tap-highlight-color:transparent; }
+.hd { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+.hd h1 { font-size:17px; font-weight:800; } .hd .tag { font-size:10px; color:var(--dim); border:1px solid var(--border); border-radius:100px; padding:4px 10px; }
+.nav { display:grid; grid-template-columns:repeat(6,1fr); gap:6px; margin-bottom:14px; }
+.nav button { background:var(--card); border:1px solid var(--border); color:var(--dim); border-radius:10px; padding:10px 4px; font-family:inherit; font-size:11px; font-weight:600; cursor:pointer; }
+.nav button.on { color:#fff; background:linear-gradient(135deg,#1f6feb,#a371f7); border-color:transparent; }
+.view { display:none; } .view.on { display:block; }
+.panel { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-bottom:12px; }
+.panel h2 { font-size:13px; font-weight:700; margin-bottom:10px; }
+.kpis { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+.kpi { background:var(--card2); border:1px solid var(--border); border-radius:12px; padding:12px; }
+.kpi .label { font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:.5px; }
+.kpi .value { font-size:22px; font-weight:800; margin-top:4px; font-variant-numeric:tabular-nums; }
+.kpi .note { font-size:10px; color:var(--dim); margin-top:2px; }
+.pos { color:var(--green); } .neg { color:var(--red); }
+.tbl-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:11.5px; }
+th { text-align:left; color:var(--dim); font-size:10px; font-weight:600; padding:6px 8px; border-bottom:1px solid var(--border); white-space:nowrap; }
+td { padding:8px; border-bottom:1px solid rgba(255,255,255,.04); vertical-align:top; }
+tr:last-child td { border-bottom:none; }
+.legend { font-size:10px; color:var(--dim); margin-top:8px; line-height:1.5; }
+.chip { display:inline-block; padding:3px 8px; border-radius:100px; font-size:10px; font-weight:600; background:var(--card2); border:1px solid var(--border); color:var(--dim); }
+.chip.buy { color:#fff; background:linear-gradient(135deg,#1a7f37,#3fb950); border-color:transparent; }
+svg text { font-family:Inter,sans-serif; }
+.fallback { color:var(--dim); font-size:11px; padding:14px; text-align:center; }
+@media (max-width:720px) {
+  body { padding:10px; padding-bottom:30px; }
+  .nav { grid-template-columns:repeat(3,1fr); gap:6px; }
+  .nav button { padding:9px 2px; font-size:10.5px; }
+  .hd h1 { font-size:15px; }
+  .kpi .value { font-size:19px; }
+  table { font-size:11px; }
+  td, th { padding:6px; }
+  .panel { padding:12px; }
+}
+@media (max-width:380px) {
+  .nav { grid-template-columns:repeat(2,1fr); }
+  .kpi .value { font-size:17px; }
+}
+</style>
+</head>
+<body>
+<div class="hd"><h1>🔮 Polymarket Lab <span style="color:var(--dim);font-weight:400;font-size:11px">v1.5</span></h1><span class="tag" id="upd">загрузка…</span></div>
+<div class="nav">
+<button class="on" onclick="show('ov')">📊 Обзор</button>
+<button onclick="show('sig')">⚡ Сигналы</button>
+<button onclick="show('pf')">💼 Портфель</button>
+<button onclick="show('lab')">🧪 Лаборатория</button>
+<button onclick="show('sht')">⏱ Бинари</button>
+<button onclick="show('sys')">⚙️ Система</button>
+</div>
+
+<div class="view on" id="v-ov">
+  <div class="panel"><h2>💼 Бумажный портфель</h2>
+    <div class="kpis">
+      <div class="kpi"><div class="label">Капитал</div><div class="value" id="k-eq">—</div><div class="note" id="k-pnl"></div></div>
+      <div class="kpi"><div class="label">Открыто позиций</div><div class="value" id="k-open">—</div><div class="note">макс. 6 · 5% капитала на позицию</div></div>
+      <div class="kpi"><div class="label">Сделок закрыто</div><div class="value" id="k-tr">—</div><div class="note" id="k-wr"></div></div>
+      <div class="kpi"><div class="label">Отсканировано рынков</div><div class="value" id="k-scn">—</div><div class="note">крипто-рынки предсказаний</div></div>
+    </div>
+  </div>
+  <div class="panel"><h2>📈 Кривая капитала</h2><div id="curve"></div>
+    <div class="legend">бумажная торговля, старт $1000 · комиссии ~0.2% на круг учтены · тейк-профит/стоп ±10% · срок позиции до 14 дней</div>
+  </div>
+</div>
+
+<div class="view" id="v-sig">
+  <div class="panel"><h2>⚡ Активные сигналы <span class="chip" id="sig-n">—</span></h2>
+    <div class="tbl-wrap"><table id="sig-t"></table></div>
+    <div class="legend">эдж — грубая оценка несправедливости цены; торговлю получают только сигналы с ликвидностью > $2000, ценой 0.06–0.94 и положительным эджем</div>
+  </div>
+</div>
+
+<div class="view" id="v-pf">
+  <div class="panel"><h2>📂 Открытые позиции</h2><div class="tbl-wrap"><table id="pos-t"></table></div></div>
+  <div class="panel"><h2>🧾 История сделок</h2><div class="tbl-wrap"><table id="cls-t"></table></div></div>
+</div>
+
+<div class="view" id="v-sht">
+  <div class="panel"><h2>⏱ Бинарные окна 5м · 15м · 1ч <span class="chip" id="sht-live">—</span></h2>
+    <div class="kpis" style="margin-bottom:12px">
+      <div class="kpi"><div class="label">Точность модели</div><div class="value" id="k-acc">—</div><div class="note">доля верных прогнозов</div></div>
+      <div class="kpi"><div class="label">Brier-оценка</div><div class="value" id="k-brier">—</div><div class="note">0.25 = монетка, меньше — лучше</div></div>
+      <div class="kpi"><div class="label">Бинарных сделок</div><div class="value" id="k-shtn">—</div><div class="note" id="k-shtpnl"></div></div>
+      <div class="kpi"><div class="label">Активных окон</div><div class="value" id="k-shtw">—</div><div class="note">BTC · ETH · SOL Up-or-Down</div></div>
+    </div>
+    <div class="tbl-wrap"><table id="sht-t"></table></div>
+    <div class="legend">справедливая вероятность «Up» считается из живой цены Binance, цены старта окна и волатильности (логнормальная модель); «эдж» = разница модели и рыночной цены; сделка открывается при эдже ≥ 5%, ликвидности ≥ $300 и не позже 20% до конца окна. Торгуется только бумажный капитал.</div>
+  </div>
+  <div class="panel"><h2>🧾 Закрытые бинарные сделки</h2><div class="tbl-wrap"><table id="shtc-t"></table></div></div>
+</div>
+<div class="view" id="v-lab">
+  <div class="panel"><h2>🧪 Лаборатория бинарных окон <span class="chip" id="lab-status">—</span></h2>
+    <div class="kpis" style="margin-bottom:12px">
+      <div class="kpi"><div class="label">Окон в базе</div><div class="value" id="k-labn">—</div><div class="note" id="k-labsp"></div></div>
+      <div class="kpi"><div class="label">Размечено исходов</div><div class="value" id="k-labr">—</div><div class="note">метка = реальный расчёт Polymarket</div></div>
+      <div class="kpi"><div class="label">Снимков цен</div><div class="value" id="k-labs">—</div><div class="note">снимок живых окон каждые ~5 мин</div></div>
+      <div class="kpi"><div class="label">Brier модели</div><div class="value" id="k-labb">—</div><div class="note">0.25 = монетка, меньше — лучше</div></div>
+    </div>
+    <div class="legend" id="lab-note">загружаю данные лаборатории…</div>
+  </div>
+  <div class="panel"><h2>✨ Что нашла лаборатория <span class="chip" id="lab-find-n">…</span></h2>
+    <div id="lab-find">…</div>
+    <div class="legend">✨ паттерн-кандидат = закономерность обнаружена, теперь проверяем, недооценивает ли её рынок в цене · ✅ подтверждено на «будущем» хвосте данных (OOS) — только такие становятся торговыми стратегиями · ⏳ мало данных · ❌ гипотеза не подтвердилась</div>
+  </div>
+  <div class="panel"><h2>📐 Проверка гипотез <span class="chip">анти-подгонка: сплит 70/30 по времени</span></h2>
+    <div class="tbl-wrap"><table id="hyp-t"></table></div>
+    <div class="legend">каждая гипотеза зафиксирована заранее и проверяется на «будущем» хвосте данных (OOS); статус «✅» выдаётся только если эффект одного знака на обеих половинах и хватает данных; ~10 гипотез одновременно ≈ 1 случайное срабатывание — поэтому без OOS ничего не «золотое»</div>
+  </div>
+  <div class="panel"><h2>📊 Калибровка рынка (цена Up vs реальность)</h2>
+    <div class="tbl-wrap"><table id="bin-t"></table></div>
+    <div class="legend">если в ценовом бине реальная доля «Up» устойчиво отличается от рыночной цены ≥ 5 пп (IS и OOS) — это системная ошибка рынка, т.е. кандидат на эдж</div>
+  </div>
+  <div class="panel"><h2>🔁 Серии исходов (стрики)</h2>
+    <div class="tbl-wrap"><table id="stk-t"></table></div>
+    <div class="legend">проверяем, влияет ли серия одинаковых исходов подряд на следующий; по теории эффективного рынка должно быть ~50%</div>
+  </div>
+</div>
+<div class="view" id="v-sys">
+  <div class="panel"><h2>⚙️ Как это работает</h2><div style="font-size:12px;color:var(--dim);line-height:1.7">
+    Воркер GitHub Actions каждые 5 минут сканирует крипто-рынки предсказаний Polymarket (gamma-api) и прогоняет 6 стратегий поиска эджа:<br>
+    • <b style="color:var(--text)">Арбитраж</b> — сумма цен Да+Нет ниже 1 минус издержки<br>
+    • <b style="color:var(--text)">Импульс</b> — устойчивый сдвиг цены за 3 дня<br>
+    • <b style="color:var(--text)">Возврат к среднему</b> — цена отклонилась от нормы (z-оценка > 2σ)<br>
+    • <b style="color:var(--text)">Всплеск объёма</b> — объём 24ч втрое выше недельного (информационный)<br>
+    • <b style="color:var(--text)">Фаворит</b> — переоценка длинных шотов: исход 78–95% при высокой ликвидности ближе к дате расчёта<br>
+    • <b style="color:var(--text)">Бинарь 5м/15м/1ч</b> — бинарные «Up-or-Down» окна: справедливая вероятность из цены Binance и волатильности против рыночной цены; исходы резолвятся оракулом Chainlink (ничья → Up); 15м-окна считаются по TWAP, модель для них приближённая<br>
+    • <b style="color:var(--text)">🧪 Лаборатория</b> — каждые 30 минут размечает исходы закрытых окон и проверяет заранее зафиксированные гипотезы на OOS-хвосте (защита от подгонки)<br><br>
+    Лучшие сигналы идут в бумажный портфель $1000. Реальных денег НЕТ — только виртуальная торговля для накопления статистики.
+  </div></div>
+  <div class="panel"><h2>🩺 Здоровье</h2>
+    <div class="kpis">
+      <div class="kpi"><div class="label">Прогонов воркера</div><div class="value" id="k-runs">—</div><div class="note">каждые 5 минут</div></div>
+      <div class="kpi"><div class="label">Обновлено</div><div class="value" style="font-size:14px" id="k-upd">—</div><div class="note">UTC</div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+var RAWS = ["results/", "https://cdn.jsdelivr.net/gh/davletovaalmira11-creator/polymarket-lab@master/results/", "https://raw.githubusercontent.com/davletovaalmira11-creator/polymarket-lab/master/results/"];
+var RAW = RAWS[0];
+function fetchAny(file) {
+  var i = 0;
+  function next() {
+    if (i >= RAWS.length) { return Promise.reject("no source"); }
+    var src = RAWS[i]; i += 1;
+    return fetch(src + file + "?t=" + Date.now()).then(function (r) { if (!r.ok) { throw 0; } return r.json(); }).catch(function () { return next(); });
+  }
+  return next();
+}
+var STR = { arb:"Арбитраж", momentum:"Импульс", mr:"Возврат к среднему", vols:"Всплеск объёма", fav:"Фаворит", sht5:"Бинарь 5м", sht15:"Бинарь 15м", sht1h:"Бинарь 1ч", stk5:"Стрик 5м", stk15:"Стрик 15м", stk1h:"Стрик 1ч" };
+function show(v) { document.querySelectorAll(".view").forEach(function (x) { x.classList.remove("on"); }); document.getElementById("v-" + v).classList.add("on"); document.querySelectorAll(".nav button").forEach(function (b, i) { b.classList.remove("on"); }); event.currentTarget.classList.add("on"); }
+function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+function f(x) { return x === undefined || x === null || isNaN(x) ? "—" : x; }
+function pct(x) { return (x > 0 ? "+" : "") + x + "%"; }
+function drawCurve(c) {
+  var el = document.getElementById("curve");
+  if (!c || c.length < 2) { el.innerHTML = "<div class='fallback'>кривая появится после первых прогонов</div>"; return; }
+  var W = Math.max(280, el.clientWidth || 320), H = 130, P = 30;
+  var vs = c.map(function (p) { return p[1]; });
+  var mn = Math.min.apply(null, vs), mx = Math.max.apply(null, vs);
+  if (mx - mn < 1) { mx = mn + 1; }
+  var pts = c.map(function (p, i) { return [(i / (c.length - 1)) * (W - P) + 4, H - 10 - (p[1] - mn) / (mx - mn) * (H - 25)]; });
+  var d = "M" + pts.map(function (p) { return p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" L");
+  var fill = d + " L" + (W - P + 4) + "," + (H - 10) + " L4," + (H - 10) + " Z";
+  var up = vs[vs.length - 1] >= vs[0];
+  var col = up ? "#3fb950" : "#f85149";
+  var grid = "";
+  for (var g = 0; g <= 2; g++) { var gy = 12 + g * (H - 30) / 2; grid += "<line x1='4' y1='" + gy + "' x2='" + (W - P) + "' y2='" + gy + "' stroke='rgba(255,255,255,.05)'/>" + "<text x='" + (W - P + 6) + "' y='" + (gy + 3) + "' fill='#8b949e' font-size='9'>" + (mx - g * (mx - mn) / 2).toFixed(0) + "</text>"; }
+  el.innerHTML = "<svg width='" + W + "' height='" + H + "'>" + grid + "<path d='" + fill + "' fill='" + (up ? "rgba(63,185,80,.12)" : "rgba(248,81,73,.12)") + "'/><path d='" + d + "' fill='none' stroke='" + col + "' stroke-width='2' stroke-linejoin='round'/></svg>";
+}
+function render(st, sg) {
+  if (!st) return;
+  var s = st.stats || {};
+  document.getElementById("k-eq").textContent = "$" + f(s.equity);
+  var pn = s.pnl_pct;
+  document.getElementById("k-pnl").textContent = pn !== undefined ? pct(pn) + " от старта" : "";
+  document.getElementById("k-open").textContent = f(s.open);
+  document.getElementById("k-tr").textContent = f(s.trades);
+  document.getElementById("k-wr").textContent = "винрейт " + f(s.winrate) + "%";
+  document.getElementById("k-runs").textContent = f(st.runs);
+  document.getElementById("k-upd").textContent = (s.updated || "—").replace("T", " ").slice(0, 16);
+  drawCurve(st.curve);
+  var pos = st.positions || {};
+  var pt = "<tr><th>Рынок</th><th>Исход</th><th>Стратегия</th><th>Вход</th><th>Тек.</th><th>P&L</th></tr>";
+  Object.keys(pos).forEach(function (k) { var p = pos[k]; var ch = (p.last / p.entry - 1) * 100;
+    pt += "<tr><td>" + esc(p.question).slice(0, 60) + "</td><td>" + p.outcome + "</td><td>" + (STR[p.strategy] || p.strategy) + "</td><td>" + p.entry + "</td><td>" + f(p.last) + "</td><td class='" + (ch >= 0 ? "pos" : "neg") + "'>" + pct(ch.toFixed(1)) + "</td></tr>"; });
+  if (!Object.keys(pos).length) pt += "<tr><td colspan='6' class='fallback'>пока нет открытых позиций — воркер ждёт качественный сигнал</td></tr>";
+  document.getElementById("pos-t").innerHTML = pt;
+  var cl = (st.closed || []).slice().reverse();
+  var ct = "<tr><th>Рынок</th><th>Исход</th><th>Вход</th><th>Выход</th><th>Результат</th><th>Причина</th></tr>";
+  cl.slice(0, 30).forEach(function (c2) { ct += "<tr><td>" + esc(c2.question).slice(0, 50) + "</td><td>" + c2.outcome + "</td><td>" + c2.entry + "</td><td>" + f(c2.exit) + "</td><td class='" + (c2.ret_pct > 0 ? "pos" : "neg") + "'>" + pct(c2.ret_pct) + "</td><td style='color:var(--dim)'>" + esc(c2.reason) + "</td></tr>"; });
+  if (!cl.length) ct += "<tr><td colspan='6' class='fallback'>закрытых сделок пока нет</td></tr>";
+  document.getElementById("cls-t").innerHTML = ct;
+  var sigs = (sg && sg.signals) || [];
+  document.getElementById("k-scn").textContent = sg ? f(sg.scanned) : "—";
+  document.getElementById("sig-n").textContent = sigs.length;
+  var st2 = "<tr><th>Стратегия</th><th>Рынок</th><th>Исход</th><th>Цена</th><th>Эдж</th><th>Ликв.</th><th>До конца</th></tr>";
+  sigs.slice(0, 25).forEach(function (s2) { st2 += "<tr><td>" + (STR[s2.strategy] || s2.strategy) + "</td><td>" + esc(s2.question).slice(0, 60) + (s2.note ? "<div style='color:var(--dim);font-size:10px'>" + esc(s2.note) + "</div>" : "") + "</td><td><span class='chip" + (s2.tradeable ? " buy'" : "'") + ">" + s2.outcome + "</span></td><td>" + s2.price + "</td><td class='" + (s2.edge > 0 ? "pos" : "") + "'>" + f(s2.edge) + "</td><td>" + Math.round(s2.liq / 1000) + "k</td><td>" + f(s2.days_left) + " дн</td></tr>"; });
+  if (!sigs.length) st2 += "<tr><td colspan='7' class='fallback'>сигналов сейчас нет — рынки эффективны или скан ещё не прошёл</td></tr>";
+  document.getElementById("sig-t").innerHTML = st2;
+  document.getElementById("upd").textContent = "обновлено " + (s.updated || "—").slice(11, 16) + " UTC";
+}
+function renderFindings(l) {
+  var el = document.getElementById("lab-find");
+  var h = "";
+  var gold = [], cand = [];
+  (l.hyp || []).forEach(function (x) {
+    var s = String(x.status || "");
+    if (s.indexOf("✅") === 0) { gold.push(x); }
+    else if (s.indexOf("✨") === 0) { cand.push(x); }
+  });
+  var vv = function (x) { return (x === null || x === undefined) ? "—" : esc(String(x)); };
+  gold.forEach(function (g) {
+    h += "<div class='kpi' style='margin-bottom:10px'><div class='label'>✅ Подтверждено OOS — золотая стратегия</div><div class='value' style='font-size:14px'>" + esc(g.name) + "</div><div class='note'>прошло: IS " + vv(g.is_v) + " · будущее OOS " + vv(g.oos_v) + "</div><div class='note'>" + esc(g.note || "") + "</div></div>";
+  });
+  cand.forEach(function (g) {
+    h += "<div class='kpi' style='margin-bottom:10px'><div class='label'>✨ Паттерн-кандидат</div><div class='value' style='font-size:14px'>" + esc(g.name) + "</div><div class='note'>прошло: IS " + vv(g.is_v) + " · будущее OOS " + vv(g.oos_v) + "</div><div class='note'>" + esc(g.note || "") + "</div></div>";
+  });
+  if (!h) h = "<div class='fallback'>подтверждённых паттернов пока нет — кандидаты видны в таблице гипотез ниже, статусы обновляются каждые 30 минут</div>";
+  el.innerHTML = h;
+  document.getElementById("lab-find-n").textContent = (gold.length + cand.length) > 0 ? ("✨ " + cand.length + " · ✅ " + gold.length) : "пока чисто";
+}
+function renderLab(l) {
+  if (!l) return;
+  var d = l.data || {};
+  document.getElementById("k-labn").textContent = f(d.windows);
+  document.getElementById("k-labsp").textContent = d.span_h ? d.span_h + " ч · из истории " + f(d.hist) : "";
+  document.getElementById("k-labr").textContent = f(d.settled);
+  document.getElementById("k-labs").textContent = f(d.snaps);
+  var m = l.model || {};
+  document.getElementById("k-labb").textContent = (m.is && m.is.brier !== null && m.is.brier !== undefined) ? m.is.brier : "—";
+  document.getElementById("lab-status").textContent = l.status === "ready" ? "готова к выводам" : "копит данные";
+  if (l.status_note) document.getElementById("lab-note").innerHTML = esc(l.status_note);
+  renderFindings(l);
+  var t = "<tr><th>Гипотеза</th><th>n IS</th><th>IS</th><th>n OOS</th><th>OOS</th><th>Вердикт</th></tr>";
+  (l.hyp || []).forEach(function (h) {
+    t += "<tr><td>" + esc(h.name) + "<div style='color:var(--dim);font-size:10px'>" + esc(h.note || "") + "</div></td><td>" + f(h.is_n) + "</td><td>" + (h.is_v === null || h.is_v === undefined ? "—" : esc(String(h.is_v))) + "</td><td>" + f(h.oos_n) + "</td><td>" + (h.oos_v === null || h.oos_v === undefined ? "—" : esc(String(h.oos_v))) + "</td><td class='" + ((String(h.status).indexOf("✨") === 0 || String(h.status).indexOf("✅") === 0) ? "pos" : (String(h.status).indexOf("❌") === 0 ? "neg" : "")) + "'>" + h.status + "</td></tr>";
+  });
+  if (!(l.hyp || []).length) t += "<tr><td colspan='6' class='fallback'>гипотезы появятся после первых размеченных окон (воркер пишет снимки каждые 5 мин, лаборатория размечает исходы каждые 30 мин)</td></tr>";
+  document.getElementById("hyp-t").innerHTML = t;
+  var bt = "<tr><th>Цена Up (бин)</th><th>n окон</th><th>Рынок</th><th>Реально</th><th>OOS реально</th><th>Сдвиг</th></tr>";
+  (l.bins || []).forEach(function (b) {
+    var shift = (b.real !== null && b.real !== undefined) ? (b.real - b.mkt) : null;
+    bt += "<tr" + (b.flag ? " style='box-shadow:inset 2px 0 0 var(--pos)'" : "") + "><td>" + (b.lo * 100).toFixed(0) + "–" + (b.hi * 100).toFixed(0) + "%</td><td>" + f(b.n) + "</td><td>" + (b.mkt === null ? "—" : (b.mkt * 100).toFixed(1) + "%") + "</td><td>" + (b.real === null ? "—" : (b.real * 100).toFixed(1) + "%") + "</td><td>" + (b.oos_real === null || b.oos_real === undefined ? "—" : (b.oos_real * 100).toFixed(1) + "%") + "</td><td class='" + (b.flag ? "pos" : "") + "'>" + (shift === null ? "—" : (shift > 0 ? "+" : "") + (shift * 100).toFixed(1) + " пп") + "</td></tr>";
+  });
+  if (!(l.bins || []).length) bt += "<tr><td colspan='6' class='fallback'>нужно ≥ 200 размеченных окон</td></tr>";
+  document.getElementById("bin-t").innerHTML = bt;
+  var st = "<tr><th>Серия</th><th>k подряд</th><th>n после Up</th><th>P(Up)</th><th>n после Down</th><th>P(Up)</th></tr>";
+  (l.streaks || []).forEach(function (s) {
+    st += "<tr><td>" + esc(s.tag) + "</td><td>" + s.k + "</td><td>" + f(s.n_up) + "</td><td>" + (s.p_after_up === null || s.p_after_up === undefined ? "—" : (s.p_after_up * 100).toFixed(0) + "%") + "</td><td>" + f(s.n_dn) + "</td><td>" + (s.p_after_dn === null || s.p_after_dn === undefined ? "—" : (s.p_after_dn * 100).toFixed(0) + "%") + "</td></tr>";
+  });
+  if (!(l.streaks || []).length) st += "<tr><td colspan='6' class='fallback'>нужно ≥ 100 размеченных окон на серию</td></tr>";
+  document.getElementById("stk-t").innerHTML = st;
+}
+function renderSht(sh) {
+  if (!sh) return;
+  var ws = sh.live || [];
+  document.getElementById("k-shtw").textContent = ws.length;
+  var cal = sh.cal || {};
+  document.getElementById("k-acc").textContent = cal.acc === null || cal.acc === undefined ? "—" : cal.acc + "%";
+  document.getElementById("k-brier").textContent = cal.brier === null || cal.brier === undefined ? "—" : cal.brier;
+  document.getElementById("k-shtn").textContent = f(cal.n);
+  document.getElementById("sht-live").textContent = ws.length + " живых";
+  var t = "<tr><th>Окно</th><th>Осталось</th><th>Цена Up</th><th>Модель Up</th><th>Эдж</th><th>Ликв.</th></tr>";
+  ws.forEach(function (w) {
+    var left = Math.max(0, Math.round(w.end - Date.now() / 1000));
+    var mm = Math.floor(left / 60), ss = left % 60;
+    var hasF = w.fair_up !== undefined && w.fair_up !== null;
+    var edge = hasF ? (w.edge_up >= w.edge_down ? w.edge_up : w.edge_down) : null;
+    t += "<tr><td>" + esc(w.title).slice(0, 55) + "<div style='color:var(--dim);font-size:10px'>" + w.series + " · " + w.sym + "</div></td><td>" + mm + ":" + (ss < 10 ? "0" : "") + ss + "</td><td>" + w.p_up + "</td><td class='" + (hasF && w.p_up < w.fair_up ? "pos" : "") + "'>" + (hasF ? w.fair_up : "—") + "</td><td class='" + (edge !== null && edge > 0.05 ? "pos" : "") + "'>" + (edge === null ? "—" : (edge > 0 ? "+" : "") + (edge * 100).toFixed(1) + "%") + "</td><td>" + Math.round(w.liq) + "</td></tr>";
+  });
+  if (!ws.length) t += "<tr><td colspan='6' class='fallback'>живых окон сейчас нет — скан каждые 5 минут</td></tr>";
+  document.getElementById("sht-t").innerHTML = t;
+  var cl = sh.settled || [];
+  var ct = "<tr><th>Окно</th><th>Сторона</th><th>Вход</th><th>Итог</th><th>P&L</th></tr>";
+  cl.slice(0, 15).forEach(function (c2) { ct += "<tr><td>" + esc(c2.question).slice(0, 45) + "</td><td>" + c2.outcome + "</td><td>" + c2.entry + "</td><td>" + (c2.ret_pct > 0 ? "✅ выигрыш" : "❌ проигрыш") + "</td><td class='" + (c2.ret_pct > 0 ? "pos" : "neg") + "'>" + pct(c2.ret_pct) + "</td></tr>"; });
+  if (!cl.length) ct += "<tr><td colspan='5' class='fallback'>бинарных сделок пока нет — движок ждёт эдж ≥ 5%</td></tr>";
+  document.getElementById("shtc-t").innerHTML = ct;
+}
+function refresh() {
+  Promise.all([fetchAny("state.json"), fetchAny("signals.json").catch(function () { return null; }), fetchAny("sht.json").catch(function () { return null; }), fetchAny("lab.json").catch(function () { return null; })]).then(function (d) { render(d[0], d[1]); renderSht(d[2]); renderLab(d[3]); }).catch(function () { document.getElementById("upd").textContent = "нет данных — все источники недоступны"; });
+}
+refresh();
+setInterval(refresh, 120000);
+</script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>CS2 Arbitrage Scanner — Live</title>
+<style>
+:root{
+  --bg:#07090e; --card:rgba(255,255,255,.04); --line:rgba(255,255,255,.08);
+  --text:#e8ecf4; --dim:#8b93a7; --green:#34d399; --amber:#fbbf24; --red:#f87171;
+  --grad:linear-gradient(135deg,#22d3ee,#818cf8 55%,#e879f9);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1200px 600px at 80% -10%,rgba(129,140,248,.14),transparent 60%),
+     radial-gradient(900px 500px at -10% 110%,rgba(34,211,238,.10),transparent 55%),var(--bg);
+  color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;min-height:100vh}
+.wrap{max-width:1280px;margin:0 auto;padding:20px 20px 60px}
+
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:6px 2px 18px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:38px;height:38px;border-radius:12px;background:var(--grad);display:grid;place-items:center;font-size:20px}
+h1{font-size:19px;font-weight:700;letter-spacing:-.02em}
+h1 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:12px;color:var(--dim)}
+.badge{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--dim);
+  background:var(--card);border:1px solid var(--line);border-radius:99px;padding:6px 14px;backdrop-filter:blur(8px)}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.5}}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;backdrop-filter:blur(10px)}
+.card .k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
+.card .v{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px}
+.card .v.acc{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card .s{font-size:11px;color:var(--dim);margin-top:2px}
+
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.search{flex:1;min-width:220px;display:flex;align-items:center;gap:8px;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;padding:9px 14px}
+.search input{flex:1;background:none;border:0;outline:0;color:var(--text);font-size:14px}
+select,input[type=range]{accent-color:#22d3ee}
+select{background:#0c1018;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-size:13px;cursor:pointer}
+.slider{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 14px;font-size:13px;color:var(--dim)}
+.slider b{color:var(--text);font-variant-numeric:tabular-nums;min-width:44px;text-align:right}
+
+.tablewrap{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;backdrop-filter:blur(10px)}
+.scroll{overflow:auto;max-height:calc(100vh - 300px)}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:900px}
+thead th{position:sticky;top:0;background:#0c1018ee;backdrop-filter:blur(6px);text-align:right;
+  padding:11px 14px;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);
+  cursor:pointer;user-select:none;border-bottom:1px solid var(--line);white-space:nowrap}
+thead th:first-child,thead th.l{text-align:left}
+tbody td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.04);text-align:right;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody td:first-child{text-align:left;max-width:340px;overflow:hidden;text-overflow:ellipsis}
+tbody tr{cursor:pointer;transition:background .15s}
+tbody tr:hover{background:rgba(255,255,255,.05)}
+tbody tr.pass td:first-child{border-left:3px solid var(--green)}
+.item a{color:var(--text);text-decoration:none;font-weight:600}
+.item a:hover{color:#22d3ee}
+.roi{font-weight:700}
+.pill{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:99px;letter-spacing:.04em}
+.pill.ok{background:rgba(52,211,153,.14);color:var(--green)}
+.pill.no{background:rgba(251,191,36,.12);color:var(--amber)}
+.empty{padding:60px 20px;text-align:center;color:var(--dim)}
+.empty .big{font-size:40px;margin-bottom:10px}
+
+footer{margin-top:16px;font-size:12px;color:var(--dim);display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between}
+footer a{color:var(--dim)}
+.spin{display:inline-block;animation:rot 1.2s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+@media(max-width:640px){.cards{grid-template-columns:repeat(2,1fr)}.card .v{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">⚡</div>
+      <div>
+        <h1>CS2 <span>Arbitrage Scanner</span></h1>
+        <div class="sub">Skinport → Steam · данные обновляются автоматически</div>
+      </div>
+    </div>
+    <div class="badge"><div class="dot" id="dot"></div><span id="badgeTxt">загрузка…</span></div>
+  </header>
+
+  <div class="cards">
+    <div class="card"><div class="k">Каталог Skinport</div><div class="v" id="cCat">—</div><div class="s">предметов с ценой</div></div>
+    <div class="card"><div class="k">Цен Steam в кеше</div><div class="v" id="cCache">—</div><div class="s" id="cQueue">очередь: —</div></div>
+    <div class="card"><div class="k">Сопоставлено</div><div class="v" id="cMatch">—</div><div class="s">пары Skinport↔Steam</div></div>
+    <div class="card"><div class="k">Проходят фильтры</div><div class="v acc" id="cPass">—</div><div class="s" id="cThr">—</div></div>
+    <div class="card"><div class="k">Лучший ROI</div><div class="v acc" id="cRoi">—</div><div class="s" id="cScanSub">—</div></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="search">🔍<input id="q" placeholder="Поиск предмета…"></div>
+    <div class="slider">ROI ≥ <input type="range" id="roiMin" min="0" max="100" step="1" value="10"><b id="roiVal">10%</b></div>
+    <select id="onlyPass">
+      <option value="all">Все сопоставленные</option>
+      <option value="pass" selected>Только подходящие</option>
+    </select>
+  </div>
+
+  <div class="tablewrap">
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th class="l" data-k="name">Предмет</th>
+            <th data-k="buy">Skinport €</th>
+            <th data-k="steam">Steam €</th>
+            <th data-k="profit">Прибыль €</th>
+            <th data-k="roi">ROI %</th>
+            <th data-k="volume">Vol/сут</th>
+            <th data-k="qty">Наличие</th>
+            <th class="l">Статус</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="empty" id="empty"><div class="big"><span class="spin">⏳</span></div><div id="emptyTxt">Загружаю данные…</div><div style="margin-top:8px;font-size:12px" id="emptyHint"></div></div>
+    </div>
+  </div>
+
+  <footer>
+    <span>Чистыми: Steam = цена/1.15 · покупка Skinport без комиссии покупателя</span>
+    <span><a href="https://github.com/davletovaalmira11-creator/polymarket-lab/actions" target="_blank" rel="noopener">GitHub Actions</a> · обновление каждые 3 ч · сделка — расчёт, не рекомендация</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var S=null, sortKey="roi", sortDir=-1, prevRoi={};
+  var q=document.getElementById("q"), roiMin=document.getElementById("roiMin"),
+      roiVal=document.getElementById("roiVal"), onlyPass=document.getElementById("onlyPass"),
+      rowsEl=document.getElementById("rows"), emptyEl=document.getElementById("empty");
+
+  function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+  function fmt(n,d){return n==null?"—":Number(n).toFixed(d==null?2:d)}
+  function ago(ts){
+    if(!ts)return "—";
+    var s=Math.max(0,Math.floor(Date.now()/1000-ts));
+    if(s<60)return s+" с назад"; if(s<3600)return Math.floor(s/60)+" мин назад";
+    if(s<86400)return Math.floor(s/3600)+" ч назад";
+    return Math.floor(s/86400)+" дн назад";
+  }
+
+  function apply(s){
+    S=s;
+    document.getElementById("cCat").textContent=s.skinport.items||0;
+    document.getElementById("cCache").textContent=s.steam.cached||0;
+    var sc=s.steam;
+    document.getElementById("cQueue").textContent="очередь: "+(sc.queue||0)+" · за прогон: "+(sc.fetched_this_run||0)+(sc.r429?(" · 429:"+sc.r429):"");
+    document.getElementById("cMatch").textContent=s.stats.matched;
+    document.getElementById("cPass").textContent=s.stats.passing;
+    document.getElementById("cRoi").textContent=s.stats.best_roi==null?"—":("+"+fmt(s.stats.best_roi,1)+"%");
+    document.getElementById("cThr").textContent="ROI≥"+s.thresholds.min_roi+"% · проф≥€"+s.thresholds.min_profit+" · vol≥"+s.thresholds.min_vol;
+    document.getElementById("cScanSub").textContent="скан: "+ago(s.updated_ts);
+    document.getElementById("badgeTxt").textContent="обновлено "+ago(s.updated_ts);
+    document.getElementById("dot").style.opacity=(Date.now()/1000-s.updated_ts<6*3600)?"1":"0.4";
+    document.getElementById("emptyTxt").textContent=(s.stats.matched===0)?"Сканер запущен, жду первых цен Steam…":"Ничего не найдено по фильтрам";
+    document.getElementById("emptyHint").textContent="Если тут надолго — вкладка Actions репозитория polymarket-lab → Arbitrage Scanner.";
+    render();
+  }
+
+  function render(){
+    if(!S)return;
+    var filter=q.value.trim().toLowerCase(), minR=Number(roiMin.value), pass=onlyPass.value==="pass";
+    roiVal.textContent=minR+"%";
+    var list=[];
+    for(var i=0;i<S.deals.length;i++){
+      var d=S.deals[i];
+      if(pass&&d.pass!==true)continue;
+      if(d.roi<minR)continue;
+      if(filter&&d.name.toLowerCase().indexOf(filter)<0)continue;
+      list.push(d);
+    }
+    if(sortKey!=="roi"||sortDir!==-1){
+      list.sort(function(a,b){
+        var x=a[sortKey],y=b[sortKey];
+        if(sortKey==="name")return sortDir*(a.name<b.name?-1:a.name>b.name?1:0);
+        return sortDir*(x<y?-1:1);
+      });
+    }
+    emptyEl.style.display=list.length?"none":"block";
+    var html="";
+    for(var j=0;j<list.length;j++){
+      var d2=list[j], changed=prevRoi[d2.name]!=null&&prevRoi[d2.name]!==d2.roi;
+      var roiCol=d2.roi>=S.thresholds.min_roi?"var(--green)":"var(--amber)";
+      var prfCol=d2.profit>=0?"var(--green)":"var(--red)";
+      html+='<tr class="'+(d2.pass?"pass ":"")+(changed?"flash":"")+'" data-url="'+esc(d2.steam_url)+'">'+
+        '<td class="item"><a href="'+esc(d2.steam_url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+esc(d2.name)+'</a></td>'+
+        '<td>€'+fmt(d2.buy)+'</td><td>€'+fmt(d2.steam)+'</td>'+
+        '<td style="color:'+prfCol+'">'+(d2.profit>=0?"+":"")+fmt(d2.profit)+'</td>'+
+        '<td class="roi" style="color:'+roiCol+'">'+fmt(d2.roi,1)+'%</td>'+
+        '<td>'+d2.volume+'</td><td>'+d2.qty+'</td>'+
+        '<td><span class="pill '+(d2.pass?"ok":"no")+'">'+(d2.pass?"СДЕЛКА":"ниже порога")+'</span></td></tr>';
+    }
+    rowsEl.innerHTML=html;
+    for(var k=0;k<S.deals.length;k++)prevRoi[S.deals[k].name]=S.deals[k].roi;
+  }
+
+  rowsEl.addEventListener("click",function(e){
+    var tr=e.target.closest("tr");
+    if(tr&&tr.dataset.url)window.open(tr.dataset.url,"_blank","noopener");
+  });
+  document.querySelectorAll("thead th").forEach(function(th){
+    th.addEventListener("click",function(){
+      var k=th.dataset.k; if(!k)return;
+      if(sortKey===k)sortDir=-sortDir; else{sortKey=k;sortDir=k==="name"?1:-1}
+      render();
+    });
+  });
+  q.addEventListener("input",render);
+  roiMin.addEventListener("input",render);
+  onlyPass.addEventListener("change",render);
+
+  function load(){
+    var RAW="https://raw.githubusercontent.com/davletovaalmira11-creator/polymarket-lab/master/arbitrage/data.json";
+    fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return fetch(RAW+"?t="+Date.now()).then(function(r){return r.json()})}).then(function(s){
+      apply(s);
+    }).catch(function(){
+      document.getElementById("emptyTxt").textContent="Не удалось загрузить data.json — загляните во вкладку Actions";
+    });
+  }
+  load();
+  setInterval(load,60000);
+  setInterval(function(){
+    if(S)document.getElementById("badgeTxt").textContent="обновлено "+ago(S.updated_ts);
+  },30000);
+})();
+</script>
+</body>
+</html>
