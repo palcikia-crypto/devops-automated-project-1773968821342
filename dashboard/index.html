@@ -12,36 +12,146 @@
 * { box-sizing:border-box; margin:0; padding:0; }
 body { background:var(--bg); color:var(--text); font-family:Inter,system-ui,sans-serif; padding:14px; padding-bottom:40px; max-width:760px; margin:0 auto; -webkit-tap-highlight-color:transparent; }
 .hd { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
-.hd h1 { font-size:17px; font-weight:800; }
+.hd h1 { font-size:17px; font-weight:800; } .hd .tag { font-size:10px; color:var(--dim); border:1px solid var(--border); border-radius:100px; padding:4px 10px; }
 .nav { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin-bottom:14px; }
 .nav button { background:var(--card); border:1px solid var(--border); color:var(--dim); border-radius:10px; padding:10px 4px; font-family:inherit; font-size:11px; font-weight:600; cursor:pointer; }
 .nav button.on { color:#fff; background:linear-gradient(135deg,#1f6feb,#a371f7); border-color:transparent; }
 .view { display:none; } .view.on { display:block; }
 .panel { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-bottom:12px; }
 .panel h2 { font-size:13px; font-weight:700; margin-bottom:10px; }
+.kpis { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+.kpi { background:var(--card2); border:1px solid var(--border); border-radius:12px; padding:12px; }
+.kpi .label { font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:.5px; }
+.kpi .value { font-size:22px; font-weight:800; margin-top:4px; font-variant-numeric:tabular-nums; }
+.kpi .note { font-size:10px; color:var(--dim); margin-top:2px; }
+.pos { color:var(--green); } .neg { color:var(--red); }
+.tbl-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:11.5px; }
+th { text-align:left; color:var(--dim); font-size:10px; font-weight:600; padding:6px 8px; border-bottom:1px solid var(--border); white-space:nowrap; }
+td { padding:8px; border-bottom:1px solid rgba(255,255,255,.04); vertical-align:top; }
+tr:last-child td { border-bottom:none; }
+.legend { font-size:10px; color:var(--dim); margin-top:8px; line-height:1.5; }
+.chip { display:inline-block; padding:3px 8px; border-radius:100px; font-size:10px; font-weight:600; background:var(--card2); border:1px solid var(--border); color:var(--dim); }
+.chip.buy { color:#fff; background:linear-gradient(135deg,#1a7f37,#3fb950); border-color:transparent; }
+svg text { font-family:Inter,sans-serif; }
+.fallback { color:var(--dim); font-size:11px; padding:14px; text-align:center; }
 </style>
 </head>
 <body>
-<div class="hd"><h1>🔮 Polymarket Lab v1.5</h1><span style="color:var(--dim);font-weight:400;font-size:11px">Live Dashboard</span></div>
+<div class="hd"><h1>🔮 Polymarket Lab <span style="color:var(--dim);font-weight:400;font-size:11px">v1.5</span></h1><span class="tag" id="upd">загрузка…</span></div>
 <div class="nav">
 <button class="on" onclick="show('ov')">📊 Обзор</button>
 <button onclick="show('sig')">🎯 Сигналы</button>
 <button onclick="show('pf')">💰 Портфель</button>
 <button onclick="show('sys')">⚙️ Система</button>
 </div>
+
 <div class="view on" id="v-ov">
-  <div class="panel"><h2>📊 Polymarket Lab Работает!</h2>
-    <p style="color:var(--dim);font-size:13px;">Это живая веб-панель для торговли на Polymarket.</p>
-    <p style="color:var(--dim);font-size:11px;margin-top:10px;">Данные загружаются с: <code>davletovaalmira11-creator/polymarket-lab</code></p>
+  <div class="panel"><h2>📊 Суммарный портфель</h2>
+    <div class="kpis">
+      <div class="kpi"><div class="label">Капитал</div><div class="value" id="k-eq">—</div><div class="note" id="k-pnl"></div></div>
+      <div class="kpi"><div class="label">Открыто позиций</div><div class="value" id="k-open">—</div><div class="note">макс. 6 · 5% капитала на позицию</div></div>
+      <div class="kpi"><div class="label">Сделок за сессию</div><div class="value" id="k-tr">—</div><div class="note" id="k-wr"></div></div>
+      <div class="kpi"><div class="label">Отсканировано рынков</div><div class="value" id="k-scn">—</div><div class="note">крипто-рынки предсказаний</div></div>
+    </div>
+  </div>
+  <div class="panel"><h2>📈 Кривая капитала</h2><div id="curve"></div>
+    <div class="legend">бумажная торговля, старт $1000 · комиссия ~0.2% на круг учтены · тейк-профит/стоп ±10% · срок позиции до 14 дней</div>
   </div>
 </div>
+
+<div class="view" id="v-sig">
+  <div class="panel"><h2>🎯 Активные сигналы <span class="chip" id="sig-n">—</span></h2>
+    <div class="tbl-wrap"><table id="sig-t"></table></div>
+    <div class="legend">эдж — грубая оценка несправедливости цен; торгулю только сигналы с ликвидностью > $2000, ценой 0.06–0.94 и положительным эджем</div>
+  </div>
+</div>
+
+<div class="view" id="v-pf">
+  <div class="panel"><h2>📊 Открытые позиции</h2><div class="tbl-wrap"><table id="pos-t"></table></div></div>
+  <div class="panel"><h2>🎯 История сделок</h2><div class="tbl-wrap"><table id="cls-t"></table></div></div>
+</div>
+
+<div class="view" id="v-sys">
+  <div class="panel"><h2>⚙️ Как это работает</h2><div style="font-size:12px;color:var(--dim);line-height:1.7">
+    Воркер GitHub Actions сканирует 30 минут крипто-рынки предсказаний Polymarket (gamma-api) и прогоняет 5 стратегий поиска эджа:<br>
+    <br>
+    • <b style="color:var(--text)">Арбитраж</b> — сумма цен да+нет ниже 1 минус издержки<br>
+    • <b style="color:var(--text)">Импульс</b> — устойчивый сдвиг цен за 3 дня<br>
+    • <b style="color:var(--text)">Возврат к среднему</b> — цена отклонилась от нормы (z-оценка > 2σ)<br>
+    • <b style="color:var(--text)">Всплеск объема</b> — объем 24ч выше среднего<br>
+    • <b style="color:var(--text)">Фаворит</b> — фаворит рынка<br><br>
+    Лучшие сигналы идут в бумажный портфель $1000. Реальные деньги не используются — только виртуальная торговля для тестирования стратегий.
+  </div></div>
+  <div class="panel"><h2>🎯 Здоровье</h2>
+    <div class="kpis">
+      <div class="kpi"><div class="label">Прогонов воркера</div><div class="value" id="k-runs">—</div><div class="note">каждые 30 минут</div></div>
+      <div class="kpi"><div class="label">Обновлено</div><div class="value" style="font-size:14px" id="k-upd">—</div><div class="note">UTC</div></div>
+    </div>
+  </div>
+</div>
+
 <script>
-function show(v) {
-  document.querySelectorAll(".view").forEach(function (x) { x.classList.remove("on"); });
-  document.getElementById("v-" + v).classList.add("on");
-  document.querySelectorAll(".nav button").forEach(function (b, i) { b.classList.remove("on"); });
-  event.currentTarget.classList.add("on");
+var RAW = "https://raw.githubusercontent.com/palcikia-crypto/devops-automated-project-1773968821342/main/results/";
+var STR = { arb:"Арбитраж", momentum:"Импульс", mr:"Возврат к среднему", vols:"Всплеск объема", fav:"Фаворит" };
+function show(v) { document.querySelectorAll(".view").forEach(function (x) { x.classList.remove("on"); }); document.getElementById("v-" + v).classList.add("on"); document.querySelectorAll(".nav button").forEach(function (b, i) { b.classList.remove("on"); }); event.currentTarget.classList.add("on"); }
+function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+function f(x) { return x === undefined || x === null || isNaN(x) ? "—" : x; }
+function pct(x) { return (x > 0 ? "+" : "") + x + "%"; }
+function drawCurve(c) {
+  var el = document.getElementById("curve");
+  if (!c || c.length < 2) { el.innerHTML = "<div class='fallback'>кривая появится после первых прогонов</div>"; return; }
+  var W = Math.max(280, el.clientWidth || 320), H = 130, P = 30;
+  var vs = c.map(function (p) { return p[1]; });
+  var mn = Math.min.apply(null, vs), mx = Math.max.apply(null, vs);
+  if (mx - mn < 1) { mx = mn + 1; }
+  var pts = c.map(function (p, i) { return [(i / (c.length - 1)) * (W - P) + 4, H - 10 - (p[1] - mn) / (mx - mn) * (H - 25)]; });
+  var d = "M" + pts.map(function (p) { return p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" L");
+  var fill = d + " L" + (W - P + 4) + "," + (H - 10) + " L4," + (H - 10) + " Z";
+  var up = vs[vs.length - 1] >= vs[0];
+  var col = up ? "#3fb950" : "#f85149";
+  var grid = "";
+  for (var g = 0; g <= 2; g++) { var gy = 12 + g * (H - 30) / 2; grid += "<line x1='4' y1='" + gy + "' x2='" + (W - P) + "' y2='" + gy + "' stroke='rgba(255,255,255,.05)'/>" + "<text x='" + (W - P + 6) + "' y='" + (gy + 3) + "' fill='#8b949e' font-size='9'>" + (mx - g * (mx - mn) / 2).toFixed(0) + "</text>"; }
+  el.innerHTML = "<svg width='" + W + "' height='" + H + "'>" + grid + "<path d='" + fill + "' fill='" + (up ? "rgba(63,185,80,.12)" : "rgba(248,81,73,.12)") + "'/><path d='" + d + "' fill='none' stroke='" + col + "' stroke-width='2' stroke-linejoin='round'/></svg>";
 }
+function render(st, sg) {
+  if (!st) return;
+  var s = st.stats || {};
+  document.getElementById("k-eq").textContent = "$" + f(s.equity);
+  var pn = s.pnl_pct;
+  document.getElementById("k-pnl").textContent = pn !== undefined ? pct(pn) + " от старта" : "";
+  document.getElementById("k-open").textContent = f(s.open);
+  document.getElementById("k-tr").textContent = f(s.trades);
+  document.getElementById("k-wr").textContent = "выигрыш " + f(s.winrate) + "%";
+  document.getElementById("k-runs").textContent = f(st.runs);
+  document.getElementById("k-upd").textContent = (s.updated || "—").replace("T", " ").slice(0, 16);
+  drawCurve(st.curve);
+  var pos = st.positions || {};
+  var pt = "<tr><th>Рынок</th><th>Исход</th><th>Стратегия</th><th>Вход</th><th>Текущ.</th><th>P&L</th></tr>";
+  Object.keys(pos).forEach(function (k) { var p = pos[k]; var ch = (p.last / p.entry - 1) * 100;
+    pt += "<tr><td>" + esc(p.question).slice(0, 60) + "</td><td>" + p.outcome + "</td><td>" + (STR[p.strategy] || p.strategy) + "</td><td>" + p.entry + "</td><td>" + f(p.last) + "</td><td class='" + (ch >= 0 ? "pos" : "neg") + "'>" + pct(ch.toFixed(1)) + "</td></tr>"; });
+  if (!Object.keys(pos).length) pt += "<tr><td colspan='6' class='fallback'>пока нет открытых позиций — ждём первый сигнал</td></tr>";
+  document.getElementById("pos-t").innerHTML = pt;
+  var cl = (st.closed || []).slice().reverse();
+  var ct = "<tr><th>Рынок</th><th>Исход</th><th>Вход</th><th>Выход</th><th>Результат</th><th>Причина</th></tr>";
+  cl.slice(0, 30).forEach(function (c2) { ct += "<tr><td>" + esc(c2.question).slice(0, 50) + "</td><td>" + c2.outcome + "</td><td>" + c2.entry + "</td><td>" + f(c2.exit) + "</td><td class='" + (c2.ret_pct > 0 ? "pos" : "neg") + "'>" + pct(c2.ret_pct) + "</td><td style='color:var(--dim)'>" + esc(c2.reason) + "</td></tr>"; });
+  if (!cl.length) ct += "<tr><td colspan='6' class='fallback'>закрытых сделок пока нет</td></tr>";
+  document.getElementById("cls-t").innerHTML = ct;
+  var sigs = (sg && sg.signals) || [];
+  document.getElementById("k-scn").textContent = sg ? f(sg.scanned) : "—";
+  document.getElementById("sig-n").textContent = sigs.length;
+  var st2 = "<tr><th>Стратегия</th><th>Рынок</th><th>Исход</th><th>Цена</th><th>Эдж</th><th>Ликв.</th><th>До конца</th></tr>";
+  sigs.slice(0, 25).forEach(function (s2) { st2 += "<tr><td>" + (STR[s2.strategy] || s2.strategy) + "</td><td>" + esc(s2.question).slice(0, 60) + (s2.note ? "<div style='color:var(--dim);font-size:10px'>" + esc(s2.note) + "</div>" : "") + "</td><td><span class='chip" + (s2.tradeable ? " buy' : "'") + ">" + s2.outcome + "</span></td><td>" + s2.price + "</td><td class='" + (s2.edge > 0 ? "pos" : "") + "'>" + f(s2.edge) + "</td><td>" + Math.round(s2.liq / 1000) + "k</td><td>" + f(s2.days_left) + " дн</td></tr>"; });
+  if (!sigs.length) st2 += "<tr><td colspan='7' class='fallback'>сигналов сейчас нет — рынки эффективны или скан ещё не прошёл</td></tr>";
+  document.getElementById("sig-t").innerHTML = st2;
+  document.getElementById("upd").textContent = "обновлено " + (s.updated || "—").slice(11, 16) + " UTC";
+}
+function refresh() {
+  var b = "?t=" + Date.now();
+  Promise.all([fetch(RAW + "state.json" + b).then(function (r) { return r.json(); }), fetch(RAW + "signals.json" + b).then(function (r) { return r.json(); }).catch(function () { return null; })]).then(function (d) { render(d[0], d[1]); }).catch(function () { document.getElementById("upd").textContent = "нет данных — ждём первый прогон"; });
+}
+refresh();
+setInterval(refresh, 120000);
 </script>
 </body>
 </html>
