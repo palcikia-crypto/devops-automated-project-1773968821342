@@ -74,7 +74,7 @@ svg text { font-family:Inter,sans-serif; }
 
 <div class="view" id="v-sys">
   <div class="panel"><h2>⚙️ Как это работает</h2><div style="font-size:12px;color:var(--dim);line-height:1.7">
-    Воркер GitHub Actions каждые 30 минут сканирует крипто-рынки предсказаний Polymarket (gamma-api) и прогоняет 5 стратегий поиска эджа:<br>
+    Воркер GitHub Actions каждые 10 минут сканирует крипто-рынки предсказаний Polymarket (gamma-api) и прогоняет 5 стратегий поиска эджа:<br>
     • <b style="color:var(--text)">Арбитраж</b> — сумма цен Да+Нет ниже 1 минус издержки<br>
     • <b style="color:var(--text)">Импульс</b> — устойчивый сдвиг цены за 3 дня<br>
     • <b style="color:var(--text)">Возврат к среднему</b> — цена отклонилась от нормы (z-оценка > 2σ)<br>
@@ -84,7 +84,7 @@ svg text { font-family:Inter,sans-serif; }
   </div></div>
   <div class="panel"><h2>🩺 Здоровье</h2>
     <div class="kpis">
-      <div class="kpi"><div class="label">Прогонов воркера</div><div class="value" id="k-runs">—</div><div class="note">каждые 30 минут</div></div>
+      <div class="kpi"><div class="label">Прогонов воркера</div><div class="value" id="k-runs">—</div><div class="note">каждые 10 минут</div></div>
       <div class="kpi"><div class="label">Обновлено</div><div class="value" style="font-size:14px" id="k-upd">—</div><div class="note">UTC</div></div>
     </div>
   </div>

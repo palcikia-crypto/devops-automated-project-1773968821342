@@ -1,0 +1,35 @@
+name: Polymarket Lab Worker
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: pm-lab-worker
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run worker + lab
+        run: |
+          python3 autolab/worker.py
+          python3 autolab/lab.py
+      - name: Commit results
+        run: |
+          git config user.name "pm-lab-bot"
+          git config user.email "actions@github.com"
+          git add results/
+          if git diff --cached --quiet; then echo "no changes"; else git commit -m "lab: auto update results" && git push; fi

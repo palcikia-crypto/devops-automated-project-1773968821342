@@ -154,6 +154,58 @@ def close_pos(st, key, reason):
                           "reason": reason})
     st["closed"] = st["closed"][-300:]
 
+def market_info(slug):
+    """Рынок по slug: /markets, затем /events (закрытые выпадают из /markets)."""
+    for base in ("/markets?slug=", "/events?slug="):
+        try:
+            d = fetch(GAMMA + base + slug, 10)
+        except Exception:
+            continue
+        if not isinstance(d, list) or not d:
+            continue
+        x = d[0]
+        pr = [fnum(v) for v in plist(x.get("outcomePrices", "[]"))]
+        if len(pr) == 2 and (pr[0] > 0 or pr[1] > 0):
+            return x, pr
+        mk = x.get("markets") or []
+        if mk:
+            pr2 = [fnum(v) for v in plist(mk[0].get("outcomePrices", "[]"))]
+            if len(pr2) == 2 and (pr2[0] > 0 or pr2[1] > 0):
+                return mk[0], pr2
+    return None
+
+def settle_classic(st):
+    """Фикс висящих позиций: рынок мог выпасть из топ-200 скана — тогда last не обновлялся,
+    а расчёт никто не проверял. Здесь: обновляем цену напрямую по slug и закрываем
+    рассчитанные рынки по официальному исходу (выплата 1 или 0)."""
+    for key in list(st["positions"].keys()):
+        pos = st["positions"].get(key)
+        if not pos or pos.get("kind") == "sht":
+            continue
+        info = market_info(pos["slug"])
+        if info is None:
+            continue
+        m, pr = info
+        idx = 0 if pos["outcome"] == "Yes" else 1
+        cur = pr[idx] if len(pr) == 2 else None
+        if cur is not None and cur > 0:
+            pos["last"] = cur
+        closed = bool(m.get("closed")) or bool(m.get("resolved"))
+        if closed and cur is not None and (cur >= 0.98 or cur <= 0.02):
+            win = cur >= 0.98
+            final = 1.0 if win else 0.0
+            st["positions"].pop(key)
+            payout = pos["shares"] * final
+            st["cash"] += payout * (1 - FEE / 2)
+            ret = payout / pos["usd"] - 1.0
+            st["closed"].append({"question": pos["question"], "slug": pos["slug"],
+                "outcome": pos["outcome"], "entry": pos["entry"], "exit": final,
+                "ret_pct": round(ret * 100, 2), "strategy": pos["strategy"],
+                "opened": pos["opened"], "closed": now(),
+                "reason": "расчёт рынка" + (", выигрыш" if win else ", проигрыш")})
+            st["closed"] = st["closed"][-300:]
+
+
 # ---------- бинарный движок 5m/15m/1h ----------
 def phi(x):
     return 0.5 * math.erfc(-x / math.sqrt(2.0))
@@ -377,6 +429,7 @@ def lab_log(windows):
 def main():
     st = jload(ST["state"], {"cash": CASH0, "positions": {}, "closed": [], "curve": [[now(), CASH0]], "runs": 0, "done_keys": {}, "cal": []})
     settle_sht(st)
+    settle_classic(st)
     ms = scan()
     by_slug = {}
     for m in ms: by_slug[m["slug"]] = m
