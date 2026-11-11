@@ -43127,7 +43127,7 @@
     11397
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-15m-1794227400": {
   "series": "btc-up-or-down-15m",
@@ -43174,7 +43174,7 @@
     9974
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794186000": {
   "series": "eth-up-or-down-5m",
@@ -43508,7 +43508,7 @@
     8101
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-15m-1794227400": {
   "series": "eth-up-or-down-15m",
@@ -43555,7 +43555,7 @@
     6361
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794186300": {
   "series": "sol-up-or-down-5m",
@@ -44217,7 +44217,7 @@
     11403
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-15m-1794229200": {
   "series": "btc-up-or-down-15m",
@@ -44680,7 +44680,7 @@
     6581
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-15m-1794229200": {
   "series": "eth-up-or-down-15m",
@@ -60124,7 +60124,7 @@
     13724
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794227400": {
   "series": "btc-up-or-down-5m",
@@ -60159,7 +60159,7 @@
     11844
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794227700": {
   "series": "btc-up-or-down-5m",
@@ -60194,7 +60194,7 @@
     11869
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794228000": {
   "series": "btc-up-or-down-5m",
@@ -60229,7 +60229,7 @@
     11821
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-5m-1794228300": {
   "series": "btc-up-or-down-5m",
@@ -60264,7 +60264,7 @@
     13461
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794228600": {
   "series": "btc-up-or-down-5m",
@@ -60299,7 +60299,7 @@
     11801
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794228900": {
   "series": "btc-up-or-down-5m",
@@ -60334,7 +60334,7 @@
     11354
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-5m-1794229200": {
   "series": "btc-up-or-down-5m",
@@ -60369,7 +60369,7 @@
     11321
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-15m-1794265200": {
   "series": "btc-up-or-down-15m",
@@ -60854,7 +60854,7 @@
     8956
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794227400": {
   "series": "eth-up-or-down-5m",
@@ -60889,7 +60889,7 @@
     8897
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794227700": {
   "series": "eth-up-or-down-5m",
@@ -60924,7 +60924,7 @@
     8947
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794228000": {
   "series": "eth-up-or-down-5m",
@@ -60959,7 +60959,7 @@
     8889
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794228300": {
   "series": "eth-up-or-down-5m",
@@ -60994,7 +60994,7 @@
     8868
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794228600": {
   "series": "eth-up-or-down-5m",
@@ -61029,7 +61029,7 @@
     7164
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794228900": {
   "series": "eth-up-or-down-5m",
@@ -61064,7 +61064,7 @@
     8335
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-15m-1794265200": {
   "series": "eth-up-or-down-15m",
@@ -61520,7 +61520,7 @@
     3807
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794227400": {
   "series": "sol-up-or-down-5m",
@@ -61555,7 +61555,7 @@
     3802
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794227700": {
   "series": "sol-up-or-down-5m",
@@ -61590,7 +61590,7 @@
     3802
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794228000": {
   "series": "sol-up-or-down-5m",
@@ -61625,7 +61625,7 @@
     3802
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "sol-updown-5m-1794228300": {
   "series": "sol-up-or-down-5m",
@@ -61660,7 +61660,7 @@
     3781
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794228600": {
   "series": "sol-up-or-down-5m",
@@ -61695,7 +61695,7 @@
     3781
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794228900": {
   "series": "sol-up-or-down-5m",
@@ -61730,7 +61730,7 @@
     3249
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "sol-updown-5m-1794229200": {
   "series": "sol-up-or-down-5m",
@@ -61765,7 +61765,7 @@
     3247
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794229500": {
   "series": "btc-up-or-down-5m",
@@ -62366,7 +62366,7 @@
     6630
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794229500": {
   "series": "eth-up-or-down-5m",
@@ -100589,6 +100589,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.405,
+    0.4533,
+    13080
    ]
   ],
   "outcome": null
@@ -100606,6 +100612,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    11298
    ]
   ],
   "outcome": null
@@ -100623,6 +100635,12 @@
     0.505,
     null,
     12844
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13134
    ]
   ],
   "outcome": null
@@ -100640,6 +100658,12 @@
     0.505,
     null,
     12782
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13557
    ]
   ],
   "outcome": null
@@ -100657,6 +100681,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13559
    ]
   ],
   "outcome": null
@@ -100674,6 +100704,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13543
    ]
   ],
   "outcome": null
@@ -100691,6 +100727,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13549
    ]
   ],
   "outcome": null
@@ -100708,6 +100750,12 @@
     0.505,
     null,
     12188
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12746
    ]
   ],
   "outcome": null
@@ -100725,6 +100773,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13368
    ]
   ],
   "outcome": null
@@ -100742,6 +100796,12 @@
     0.505,
     null,
     12663
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13368
    ]
   ],
   "outcome": null
@@ -100759,6 +100819,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13361
    ]
   ],
   "outcome": null
@@ -100776,6 +100842,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.495,
+    null,
+    13296
    ]
   ],
   "outcome": null
@@ -100793,6 +100865,12 @@
     0.505,
     null,
     12663
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13282
    ]
   ],
   "outcome": null
@@ -100810,6 +100888,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13264
    ]
   ],
   "outcome": null
@@ -100827,6 +100911,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13264
    ]
   ],
   "outcome": null
@@ -100844,6 +100934,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    13264
    ]
   ],
   "outcome": null
@@ -100861,6 +100957,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100878,6 +100980,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100895,6 +101003,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100912,6 +101026,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100929,6 +101049,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100946,6 +101072,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100963,6 +101095,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -100980,6 +101118,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.495,
+    null,
+    12953
    ]
   ],
   "outcome": null
@@ -100997,6 +101141,12 @@
     0.505,
     null,
     12847
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -101014,6 +101164,12 @@
     0.505,
     null,
     12852
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
    ]
   ],
   "outcome": null
@@ -101031,6 +101187,12 @@
     0.505,
     null,
     12873
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12942
    ]
   ],
   "outcome": null
@@ -101048,6 +101210,12 @@
     0.505,
     null,
     12873
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12942
    ]
   ],
   "outcome": null
@@ -101065,6 +101233,12 @@
     0.505,
     null,
     12242
+   ],
+   [
+    1794422749,
+    0.505,
+    null,
+    12298
    ]
   ],
   "outcome": null
@@ -101898,6 +102072,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.415,
+    0.471,
+    9637
    ]
   ],
   "outcome": null
@@ -101915,6 +102095,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7177
    ]
   ],
   "outcome": null
@@ -101932,6 +102118,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7393
    ]
   ],
   "outcome": null
@@ -101949,6 +102141,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7321
    ]
   ],
   "outcome": null
@@ -101966,6 +102164,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7321
    ]
   ],
   "outcome": null
@@ -101983,6 +102187,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7320
    ]
   ],
   "outcome": null
@@ -102000,6 +102210,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7321
    ]
   ],
   "outcome": null
@@ -102017,6 +102233,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7223
    ]
   ],
   "outcome": null
@@ -102034,6 +102256,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7223
    ]
   ],
   "outcome": null
@@ -102051,6 +102279,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7220
    ]
   ],
   "outcome": null
@@ -102068,6 +102302,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7217
    ]
   ],
   "outcome": null
@@ -102085,6 +102325,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7119
    ]
   ],
   "outcome": null
@@ -102102,6 +102348,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7119
    ]
   ],
   "outcome": null
@@ -102119,6 +102371,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7119
    ]
   ],
   "outcome": null
@@ -102136,6 +102394,12 @@
     0.5,
     null,
     6753
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7084
    ]
   ],
   "outcome": null
@@ -102153,6 +102417,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    7119
    ]
   ],
   "outcome": null
@@ -102170,6 +102440,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6775
    ]
   ],
   "outcome": null
@@ -102187,6 +102463,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6771
    ]
   ],
   "outcome": null
@@ -102204,6 +102486,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6775
    ]
   ],
   "outcome": null
@@ -102221,6 +102509,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6775
    ]
   ],
   "outcome": null
@@ -102235,6 +102529,12 @@
   "snaps": [
    [
     1794395563,
+    0.5,
+    null,
+    6763
+   ],
+   [
+    1794422749,
     0.5,
     null,
     6763
@@ -102255,6 +102555,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
    ]
   ],
   "outcome": null
@@ -102269,6 +102575,12 @@
   "snaps": [
    [
     1794395563,
+    0.5,
+    null,
+    6763
+   ],
+   [
+    1794422749,
     0.5,
     null,
     6763
@@ -102289,6 +102601,12 @@
     0.5,
     null,
     6763
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
    ]
   ],
   "outcome": null
@@ -102303,6 +102621,12 @@
   "snaps": [
    [
     1794395563,
+    0.5,
+    null,
+    6763
+   ],
+   [
+    1794422749,
     0.5,
     null,
     6763
@@ -102323,6 +102647,12 @@
     0.5,
     null,
     6768
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
    ]
   ],
   "outcome": null
@@ -102340,6 +102670,12 @@
     0.5,
     null,
     6790
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
    ]
   ],
   "outcome": null
@@ -102357,6 +102693,12 @@
     0.5,
     null,
     6790
+   ],
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
    ]
   ],
   "outcome": null
@@ -102371,6 +102713,12 @@
   "snaps": [
    [
     1794395563,
+    0.5,
+    null,
+    6763
+   ],
+   [
+    1794422749,
     0.5,
     null,
     6763
@@ -104841,6 +105189,4778 @@
   "end": 1794380400,
   "snaps": [],
   "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794422700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794422700,
+  "end": 1794423000,
+  "snaps": [
+   [
+    1794422749,
+    0.335,
+    0.4164,
+    22406
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794423000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794423000,
+  "end": 1794423300,
+  "snaps": [
+   [
+    1794422749,
+    0.495,
+    null,
+    15115
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794423300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794423300,
+  "end": 1794423600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    15061
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794423600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794423600,
+  "end": 1794423900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12895
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794423900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794423900,
+  "end": 1794424200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12848
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794424200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794424200,
+  "end": 1794424500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12877
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794424500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794424500,
+  "end": 1794424800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    13187
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794424800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794424800,
+  "end": 1794425100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    13182
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794425100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794425100,
+  "end": 1794425400,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12641
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794425400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794425400,
+  "end": 1794425700,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12621
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794425700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794425700,
+  "end": 1794426000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12593
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794426000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794426000,
+  "end": 1794426300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12611
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794426300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794426300,
+  "end": 1794426600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12596
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794426600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794426600,
+  "end": 1794426900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12629
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794426900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794426900,
+  "end": 1794427200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12487
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794427200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794427200,
+  "end": 1794427500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12456
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794427500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794427500,
+  "end": 1794427800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12419
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794427800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794427800,
+  "end": 1794428100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12477
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794428100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794428100,
+  "end": 1794428400,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12440
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794428400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794428400,
+  "end": 1794428700,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12356
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794428700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794428700,
+  "end": 1794429000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12477
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794429000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794429000,
+  "end": 1794429300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12468
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794429300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794429300,
+  "end": 1794429600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12452
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794429600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794429600,
+  "end": 1794429900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12449
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794429900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794429900,
+  "end": 1794430200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12464
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794430200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794430200,
+  "end": 1794430500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12450
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794430500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794430500,
+  "end": 1794430800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12483
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794430800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794430800,
+  "end": 1794431100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12465
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794431100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794431100,
+  "end": 1794431400,
+  "snaps": [
+   [
+    1794422749,
+    0.495,
+    null,
+    12349
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794431400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794431400,
+  "end": 1794431700,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12327
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794431700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794431700,
+  "end": 1794432000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12469
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794432000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794432000,
+  "end": 1794432300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12465
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794432300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794432300,
+  "end": 1794432600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12384
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794432600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794432600,
+  "end": 1794432900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12445
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794432900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794432900,
+  "end": 1794433200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12469
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794433200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794433200,
+  "end": 1794433500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12463
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794433500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794433500,
+  "end": 1794433800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12466
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794433800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794433800,
+  "end": 1794434100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12357
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794434100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794434100,
+  "end": 1794434400,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12347
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794434400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794434400,
+  "end": 1794434700,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12613
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794434700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794434700,
+  "end": 1794435000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12450
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794435000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794435000,
+  "end": 1794435300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12482
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794435300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794435300,
+  "end": 1794435600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12509
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794435600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794435600,
+  "end": 1794435900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12641
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794435900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794435900,
+  "end": 1794436200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12591
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794448800": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794448800,
+  "end": 1794449700,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794449700": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794449700,
+  "end": 1794450600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794450600": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794450600,
+  "end": 1794451500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794451500": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794451500,
+  "end": 1794452400,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794452400": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794452400,
+  "end": 1794453300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794453300": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794453300,
+  "end": 1794454200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794454200": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794454200,
+  "end": 1794455100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794455100": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794455100,
+  "end": 1794456000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794456000": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794456000,
+  "end": 1794456900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794456900": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794456900,
+  "end": 1794457800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794457800": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794457800,
+  "end": 1794458700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    12917
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794458700": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794458700,
+  "end": 1794459600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12920
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794459600": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794459600,
+  "end": 1794460500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12942
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794460500": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794460500,
+  "end": 1794461400,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12927
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794461400": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794461400,
+  "end": 1794462300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12930
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794462300": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794462300,
+  "end": 1794463200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12926
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794463200": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794463200,
+  "end": 1794464100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12924
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794464100": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794464100,
+  "end": 1794465000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12925
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794465000": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794465000,
+  "end": 1794465900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12924
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794465900": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794465900,
+  "end": 1794466800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12924
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794466800": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794466800,
+  "end": 1794467700,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12880
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794467700": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794467700,
+  "end": 1794468600,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12881
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794468600": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794468600,
+  "end": 1794469500,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12879
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794469500": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794469500,
+  "end": 1794470400,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12881
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794470400": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794470400,
+  "end": 1794471300,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12879
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794471300": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794471300,
+  "end": 1794472200,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12897
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794472200": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794472200,
+  "end": 1794473100,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12882
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794473100": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794473100,
+  "end": 1794474000,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12880
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794474000": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794474000,
+  "end": 1794474900,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12882
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-15m-1794474900": {
+  "series": "btc-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "BTCUSDT",
+  "win_s": 900,
+  "start": 1794474900,
+  "end": 1794475800,
+  "snaps": [
+   [
+    1794422749,
+    0.505,
+    null,
+    12862
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794422700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794422700,
+  "end": 1794423000,
+  "snaps": [
+   [
+    1794422749,
+    0.335,
+    0.4475,
+    9858
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794423000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794423000,
+  "end": 1794423300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9762
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794423300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794423300,
+  "end": 1794423600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9875
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794423600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794423600,
+  "end": 1794423900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9831
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794423900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794423900,
+  "end": 1794424200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9881
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794424200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794424200,
+  "end": 1794424500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9881
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794424500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794424500,
+  "end": 1794424800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9823
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794424800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794424800,
+  "end": 1794425100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9823
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794425100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794425100,
+  "end": 1794425400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794425400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794425400,
+  "end": 1794425700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794425700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794425700,
+  "end": 1794426000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794426000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794426000,
+  "end": 1794426300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794426300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794426300,
+  "end": 1794426600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794426600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794426600,
+  "end": 1794426900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794426900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794426900,
+  "end": 1794427200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794427200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794427200,
+  "end": 1794427500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794427500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794427500,
+  "end": 1794427800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794427800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794427800,
+  "end": 1794428100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794428100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794428100,
+  "end": 1794428400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794428400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794428400,
+  "end": 1794428700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9176
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794428700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794428700,
+  "end": 1794429000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794429000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794429000,
+  "end": 1794429300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794429300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794429300,
+  "end": 1794429600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    7586
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794429600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794429600,
+  "end": 1794429900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794429900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794429900,
+  "end": 1794430200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794430200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794430200,
+  "end": 1794430500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794430500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794430500,
+  "end": 1794430800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794430800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794430800,
+  "end": 1794431100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794431100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794431100,
+  "end": 1794431400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9286
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794431400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794431400,
+  "end": 1794431700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794431700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794431700,
+  "end": 1794432000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    7586
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794432000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794432000,
+  "end": 1794432300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9286
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794432300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794432300,
+  "end": 1794432600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794432600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794432600,
+  "end": 1794432900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9286
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794432900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794432900,
+  "end": 1794433200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794433200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794433200,
+  "end": 1794433500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794433500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794433500,
+  "end": 1794433800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794433800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794433800,
+  "end": 1794434100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794434100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794434100,
+  "end": 1794434400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794434400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794434400,
+  "end": 1794434700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794434700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794434700,
+  "end": 1794435000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794435000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794435000,
+  "end": 1794435300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794435300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794435300,
+  "end": 1794435600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9181
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-5m-1794435600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794435600,
+  "end": 1794435900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    9291
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794448800": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794448800,
+  "end": 1794449700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794449700": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794449700,
+  "end": 1794450600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794450600": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794450600,
+  "end": 1794451500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794451500": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794451500,
+  "end": 1794452400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794452400": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794452400,
+  "end": 1794453300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794453300": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794453300,
+  "end": 1794454200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794454200": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794454200,
+  "end": 1794455100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794455100": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794455100,
+  "end": 1794456000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794456000": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794456000,
+  "end": 1794456900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794456900": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794456900,
+  "end": 1794457800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794457800": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794457800,
+  "end": 1794458700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794458700": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794458700,
+  "end": 1794459600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6763
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794459600": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794459600,
+  "end": 1794460500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794460500": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794460500,
+  "end": 1794461400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794461400": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794461400,
+  "end": 1794462300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794462300": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794462300,
+  "end": 1794463200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794463200": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794463200,
+  "end": 1794464100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794464100": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794464100,
+  "end": 1794465000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794465000": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794465000,
+  "end": 1794465900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794465900": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794465900,
+  "end": 1794466800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794466800": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794466800,
+  "end": 1794467700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794467700": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794467700,
+  "end": 1794468600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794468600": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794468600,
+  "end": 1794469500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794469500": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794469500,
+  "end": 1794470400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794470400": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794470400,
+  "end": 1794471300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794471300": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794471300,
+  "end": 1794472200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794472200": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794472200,
+  "end": 1794473100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6785
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794473100": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794473100,
+  "end": 1794474000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6780
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794474000": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794474000,
+  "end": 1794474900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6780
+   ]
+  ],
+  "outcome": null
+ },
+ "eth-updown-15m-1794474900": {
+  "series": "eth-up-or-down-15m",
+  "tag": "sht15",
+  "sym": "ETHUSDT",
+  "win_s": 900,
+  "start": 1794474900,
+  "end": 1794475800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    6530
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794422700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794422700,
+  "end": 1794423000,
+  "snaps": [
+   [
+    1794422749,
+    0.305,
+    0.3589,
+    5408
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794423000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794423000,
+  "end": 1794423300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4116
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794423300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794423300,
+  "end": 1794423600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4322
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794423600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794423600,
+  "end": 1794423900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4322
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794423900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794423900,
+  "end": 1794424200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4322
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794424200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794424200,
+  "end": 1794424500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4322
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794424500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794424500,
+  "end": 1794424800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4322
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794424800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794424800,
+  "end": 1794425100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4322
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794425100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794425100,
+  "end": 1794425400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4301
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794425400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794425400,
+  "end": 1794425700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3790
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794425700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794425700,
+  "end": 1794426000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3752
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794426000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794426000,
+  "end": 1794426300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3790
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794426300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794426300,
+  "end": 1794426600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3790
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794426600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794426600,
+  "end": 1794426900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3775
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794426900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794426900,
+  "end": 1794427200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3680
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794427200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794427200,
+  "end": 1794427500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3790
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794427500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794427500,
+  "end": 1794427800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    4317
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794427800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794427800,
+  "end": 1794428100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3790
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794428100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794428100,
+  "end": 1794428400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3790
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794428400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794428400,
+  "end": 1794428700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3674
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794428700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794428700,
+  "end": 1794429000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794429000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794429000,
+  "end": 1794429300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794429300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794429300,
+  "end": 1794429600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794429600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794429600,
+  "end": 1794429900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794429900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794429900,
+  "end": 1794430200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794430200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794430200,
+  "end": 1794430500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794430500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794430500,
+  "end": 1794430800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794430800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794430800,
+  "end": 1794431100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794431100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794431100,
+  "end": 1794431400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794431400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794431400,
+  "end": 1794431700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794431700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794431700,
+  "end": 1794432000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794432000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794432000,
+  "end": 1794432300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794432300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794432300,
+  "end": 1794432600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794432600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794432600,
+  "end": 1794432900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794432900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794432900,
+  "end": 1794433200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794433200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794433200,
+  "end": 1794433500,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794433500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794433500,
+  "end": 1794433800,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794433800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794433800,
+  "end": 1794434100,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794434100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794434100,
+  "end": 1794434400,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794434400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794434400,
+  "end": 1794434700,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794434700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794434700,
+  "end": 1794435000,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794435000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794435000,
+  "end": 1794435300,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794435300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794435300,
+  "end": 1794435600,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3662
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794435600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794435600,
+  "end": 1794435900,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3772
+   ]
+  ],
+  "outcome": null
+ },
+ "sol-updown-5m-1794435900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794435900,
+  "end": 1794436200,
+  "snaps": [
+   [
+    1794422749,
+    0.5,
+    null,
+    3821
+   ]
+  ],
+  "outcome": null
+ },
+ "btc-updown-5m-1794422100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794422100,
+  "end": 1794422400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794421800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794421800,
+  "end": 1794422100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794421500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794421500,
+  "end": 1794421800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794421200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794421200,
+  "end": 1794421500,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794420900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794420900,
+  "end": 1794421200,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794420600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794420600,
+  "end": 1794420900,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794420300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794420300,
+  "end": 1794420600,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794420000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794420000,
+  "end": 1794420300,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794419700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794419700,
+  "end": 1794420000,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794419400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794419400,
+  "end": 1794419700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794419100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794419100,
+  "end": 1794419400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794418800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794418800,
+  "end": 1794419100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794418500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794418500,
+  "end": 1794418800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794418200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794418200,
+  "end": 1794418500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794417900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794417900,
+  "end": 1794418200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794417600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794417600,
+  "end": 1794417900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794417300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794417300,
+  "end": 1794417600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794417000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794417000,
+  "end": 1794417300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794416700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794416700,
+  "end": 1794417000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794416400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794416400,
+  "end": 1794416700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794416100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794416100,
+  "end": 1794416400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794415800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794415800,
+  "end": 1794416100,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794415500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794415500,
+  "end": 1794415800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794415200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794415200,
+  "end": 1794415500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794414900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794414900,
+  "end": 1794415200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794414600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794414600,
+  "end": 1794414900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794414300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794414300,
+  "end": 1794414600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794414000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794414000,
+  "end": 1794414300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794413700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794413700,
+  "end": 1794414000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794413400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794413400,
+  "end": 1794413700,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794413100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794413100,
+  "end": 1794413400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794412800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794412800,
+  "end": 1794413100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794412500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794412500,
+  "end": 1794412800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794412200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794412200,
+  "end": 1794412500,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794411900": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794411900,
+  "end": 1794412200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794411600": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794411600,
+  "end": 1794411900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794411300": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794411300,
+  "end": 1794411600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794411000": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794411000,
+  "end": 1794411300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794410700": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794410700,
+  "end": 1794411000,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794410400": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794410400,
+  "end": 1794410700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794410100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794410100,
+  "end": 1794410400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794409800": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794409800,
+  "end": 1794410100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794409500": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794409500,
+  "end": 1794409800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794409200": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794409200,
+  "end": 1794409500,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "btc-updown-5m-1794395100": {
+  "series": "btc-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "BTCUSDT",
+  "win_s": 300,
+  "start": 1794395100,
+  "end": 1794395400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794422100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794422100,
+  "end": 1794422400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794421800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794421800,
+  "end": 1794422100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794421500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794421500,
+  "end": 1794421800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794421200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794421200,
+  "end": 1794421500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794420900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794420900,
+  "end": 1794421200,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794420600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794420600,
+  "end": 1794420900,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794420300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794420300,
+  "end": 1794420600,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794420000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794420000,
+  "end": 1794420300,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794419700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794419700,
+  "end": 1794420000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794419400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794419400,
+  "end": 1794419700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794419100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794419100,
+  "end": 1794419400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794418800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794418800,
+  "end": 1794419100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794418500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794418500,
+  "end": 1794418800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794418200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794418200,
+  "end": 1794418500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794417900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794417900,
+  "end": 1794418200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794417600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794417600,
+  "end": 1794417900,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794417300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794417300,
+  "end": 1794417600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794417000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794417000,
+  "end": 1794417300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794416700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794416700,
+  "end": 1794417000,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794416400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794416400,
+  "end": 1794416700,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794416100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794416100,
+  "end": 1794416400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794415800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794415800,
+  "end": 1794416100,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794415500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794415500,
+  "end": 1794415800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794415200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794415200,
+  "end": 1794415500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794414900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794414900,
+  "end": 1794415200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794414600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794414600,
+  "end": 1794414900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794414300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794414300,
+  "end": 1794414600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794414000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794414000,
+  "end": 1794414300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794413700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794413700,
+  "end": 1794414000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794413400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794413400,
+  "end": 1794413700,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794413100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794413100,
+  "end": 1794413400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794412800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794412800,
+  "end": 1794413100,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794412500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794412500,
+  "end": 1794412800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794412200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794412200,
+  "end": 1794412500,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794411900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794411900,
+  "end": 1794412200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794411600": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794411600,
+  "end": 1794411900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794411300": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794411300,
+  "end": 1794411600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794411000": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794411000,
+  "end": 1794411300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794410700": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794410700,
+  "end": 1794411000,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794410400": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794410400,
+  "end": 1794410700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794410100": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794410100,
+  "end": 1794410400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794409800": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794409800,
+  "end": 1794410100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794409500": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794409500,
+  "end": 1794409800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794409200": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794409200,
+  "end": 1794409500,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "eth-updown-5m-1794408900": {
+  "series": "eth-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "ETHUSDT",
+  "win_s": 300,
+  "start": 1794408900,
+  "end": 1794409200,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794422100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794422100,
+  "end": 1794422400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794421800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794421800,
+  "end": 1794422100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794421500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794421500,
+  "end": 1794421800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794421200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794421200,
+  "end": 1794421500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794420900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794420900,
+  "end": 1794421200,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794420600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794420600,
+  "end": 1794420900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794420300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794420300,
+  "end": 1794420600,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794420000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794420000,
+  "end": 1794420300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794419700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794419700,
+  "end": 1794420000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794419400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794419400,
+  "end": 1794419700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794419100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794419100,
+  "end": 1794419400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794418800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794418800,
+  "end": 1794419100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794418500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794418500,
+  "end": 1794418800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794418200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794418200,
+  "end": 1794418500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794417900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794417900,
+  "end": 1794418200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794417600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794417600,
+  "end": 1794417900,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794417300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794417300,
+  "end": 1794417600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794417000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794417000,
+  "end": 1794417300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794416700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794416700,
+  "end": 1794417000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794416400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794416400,
+  "end": 1794416700,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794416100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794416100,
+  "end": 1794416400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794415800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794415800,
+  "end": 1794416100,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794415500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794415500,
+  "end": 1794415800,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794415200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794415200,
+  "end": 1794415500,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794414900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794414900,
+  "end": 1794415200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794414600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794414600,
+  "end": 1794414900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794414300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794414300,
+  "end": 1794414600,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794414000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794414000,
+  "end": 1794414300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794413700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794413700,
+  "end": 1794414000,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794413400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794413400,
+  "end": 1794413700,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794413100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794413100,
+  "end": 1794413400,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794412800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794412800,
+  "end": 1794413100,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794412500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794412500,
+  "end": 1794412800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794412200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794412200,
+  "end": 1794412500,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794411900": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794411900,
+  "end": 1794412200,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794411600": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794411600,
+  "end": 1794411900,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794411300": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794411300,
+  "end": 1794411600,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794411000": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794411000,
+  "end": 1794411300,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794410700": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794410700,
+  "end": 1794411000,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794410400": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794410400,
+  "end": 1794410700,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794410100": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794410100,
+  "end": 1794410400,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794409800": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794409800,
+  "end": 1794410100,
+  "snaps": [],
+  "outcome": 1,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794409500": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794409500,
+  "end": 1794409800,
+  "snaps": [],
+  "outcome": 0,
+  "src": "hist"
+ },
+ "sol-updown-5m-1794409200": {
+  "series": "sol-up-or-down-5m",
+  "tag": "sht5",
+  "sym": "SOLUSDT",
+  "win_s": 300,
+  "start": 1794409200,
+  "end": 1794409500,
+  "snaps": [],
+  "outcome": 0,
   "src": "hist"
  }
 }

@@ -1,21 +1,5 @@
 {
- "updated": "2026-11-11T11:12:44Z",
+ "updated": "2026-11-11T18:45:49Z",
  "scanned": 200,
- "signals": [
-  {
-   "strategy": "vols",
-   "slug": "btc-updown-5m-1794395100",
-   "question": "Bitcoin Up or Down - November 11, 6:05AM-6:10AM ET",
-   "outcome": "-",
-   "price": 0,
-   "edge": 0,
-   "note": "объём 24ч 5278 против среднего 754",
-   "liq": 213807,
-   "v24": 5278,
-   "z": 0.0,
-   "end": "2026-11-11",
-   "days_left": 0.0,
-   "tradeable": false
-  }
- ]
+ "signals": []
 }
