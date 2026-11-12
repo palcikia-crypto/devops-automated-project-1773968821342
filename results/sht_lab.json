@@ -46606,7 +46606,7 @@
     6877
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794192900": {
   "series": "eth-up-or-down-5m",
@@ -46945,7 +46945,7 @@
     7071
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-15m-1794234600": {
   "series": "eth-up-or-down-15m",
@@ -46992,7 +46992,7 @@
     1932
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794193200": {
   "series": "sol-up-or-down-5m",
@@ -47535,7 +47535,7 @@
     12436
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-15m-1794236400": {
   "series": "btc-up-or-down-15m",
@@ -47874,7 +47874,7 @@
     7423
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-15m-1794236400": {
   "series": "eth-up-or-down-15m",
@@ -63461,7 +63461,7 @@
     11325
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-5m-1794234900": {
   "series": "btc-up-or-down-5m",
@@ -63496,7 +63496,7 @@
     18145
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-5m-1794235200": {
   "series": "btc-up-or-down-5m",
@@ -63531,7 +63531,7 @@
     12156
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794235500": {
   "series": "btc-up-or-down-5m",
@@ -63566,7 +63566,7 @@
     13778
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794235800": {
   "series": "btc-up-or-down-5m",
@@ -63601,7 +63601,7 @@
     11917
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794236100": {
   "series": "btc-up-or-down-5m",
@@ -63636,7 +63636,7 @@
     11902
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-15m-1794273300": {
   "series": "btc-up-or-down-15m",
@@ -63951,7 +63951,7 @@
     8336
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794234600": {
   "series": "eth-up-or-down-5m",
@@ -63980,7 +63980,7 @@
     8336
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794234900": {
   "series": "eth-up-or-down-5m",
@@ -64015,7 +64015,7 @@
     6829
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794235200": {
   "series": "eth-up-or-down-5m",
@@ -64050,7 +64050,7 @@
     6678
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794235500": {
   "series": "eth-up-or-down-5m",
@@ -64085,7 +64085,7 @@
     7242
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "eth-updown-5m-1794235800": {
   "series": "eth-up-or-down-5m",
@@ -64120,7 +64120,7 @@
     7183
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-15m-1794273300": {
   "series": "eth-up-or-down-15m",
@@ -64406,7 +64406,7 @@
     3777
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794234600": {
   "series": "sol-up-or-down-5m",
@@ -64435,7 +64435,7 @@
     3232
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794234900": {
   "series": "sol-up-or-down-5m",
@@ -64470,7 +64470,7 @@
     4067
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "sol-updown-5m-1794235200": {
   "series": "sol-up-or-down-5m",
@@ -64505,7 +64505,7 @@
     3269
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794235500": {
   "series": "sol-up-or-down-5m",
@@ -64540,7 +64540,7 @@
     3645
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "sol-updown-5m-1794235800": {
   "series": "sol-up-or-down-5m",
@@ -64575,7 +64575,7 @@
     3771
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "sol-updown-5m-1794236100": {
   "series": "sol-up-or-down-5m",
@@ -64610,7 +64610,7 @@
     3771
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-5m-1794236400": {
   "series": "btc-up-or-down-5m",
@@ -64639,7 +64639,7 @@
     11906
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "btc-updown-5m-1794236700": {
   "series": "btc-up-or-down-5m",
@@ -64668,7 +64668,7 @@
     11880
    ]
   ],
-  "outcome": null
+  "outcome": 1
  },
  "btc-updown-5m-1794237000": {
   "series": "btc-up-or-down-5m",
@@ -65211,7 +65211,7 @@
     8938
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794236400": {
   "series": "eth-up-or-down-5m",
@@ -65240,7 +65240,7 @@
     7216
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794236700": {
   "series": "eth-up-or-down-5m",
@@ -65269,7 +65269,7 @@
     8880
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "eth-updown-5m-1794237000": {
   "series": "eth-up-or-down-5m",
@@ -65777,7 +65777,7 @@
     3771
    ]
   ],
-  "outcome": null
+  "outcome": 0
  },
  "sol-updown-5m-1794236700": {
   "series": "sol-up-or-down-5m",
