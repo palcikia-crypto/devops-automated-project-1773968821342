@@ -1,25 +1,13 @@
 {
- "cash": 1599.3732126270172,
+ "cash": 1640.6419026270173,
  "positions": {
-  "will-bitcoin-dip-to-60k-in-november-2026": {
-   "question": "Will Bitcoin dip to $60,000 in November?",
-   "slug": "will-bitcoin-dip-to-60k-in-november-2026",
-   "outcome": "No",
-   "strategy": "fav",
-   "entry": 0.925,
-   "last": 0.835,
-   "shares": 54,
-   "usd": 50,
-   "opened": "2026-11-08T01:16:14Z",
-   "epoch": 1794100574.6587923
-  },
   "will-bitcoin-reach-90k-in-november-2026": {
    "question": "Will Bitcoin reach $90,000 in November?",
    "slug": "will-bitcoin-reach-90k-in-november-2026",
    "outcome": "No",
    "strategy": "fav",
    "entry": 0.915,
-   "last": 0.9865,
+   "last": 0.9845,
    "shares": 54.56,
    "usd": 49.98,
    "opened": "2026-11-08T02:29:10Z",
@@ -926,6 +914,18 @@
    "opened": "2026-11-08T01:16:14Z",
    "closed": "2026-11-13T02:55:13Z",
    "reason": "стоп-лосс -10%"
+  },
+  {
+   "question": "Will Bitcoin dip to $60,000 in November?",
+   "slug": "will-bitcoin-dip-to-60k-in-november-2026",
+   "outcome": "No",
+   "entry": 0.925,
+   "exit": 0.765,
+   "ret_pct": -17.5,
+   "strategy": "fav",
+   "opened": "2026-11-08T01:16:14Z",
+   "closed": "2026-11-14T03:33:34Z",
+   "reason": "стоп-лосс -10%"
   }
  ],
  "curve": [
@@ -1212,19 +1212,23 @@
   [
    "2026-11-13T23:35:33Z",
    1698.29
+  ],
+  [
+   "2026-11-14T03:33:36Z",
+   1694.36
   ]
  ],
- "runs": 74,
+ "runs": 75,
  "stats": {
-  "equity": 1698.29,
-  "cash": 1599.37,
-  "open": 2,
-  "trades": 75,
+  "equity": 1694.36,
+  "cash": 1640.64,
+  "open": 1,
+  "trades": 76,
   "wins": 39,
-  "winrate": 52.0,
-  "pnl_pct": 69.83,
-  "updated": "2026-11-13T23:35:33Z",
-  "runs": 74,
+  "winrate": 51.3,
+  "pnl_pct": 69.44,
+  "updated": "2026-11-14T03:33:36Z",
+  "runs": 75,
   "sht_open": 0,
   "sht_trades": 71,
   "sht_pnl": 702.77
