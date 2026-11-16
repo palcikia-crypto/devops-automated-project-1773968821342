@@ -7,7 +7,7 @@
    "outcome": "No",
    "strategy": "fav",
    "entry": 0.915,
-   "last": 0.985,
+   "last": 0.9885,
    "shares": 54.56,
    "usd": 49.98,
    "opened": "2026-11-08T02:29:10Z",
@@ -1252,19 +1252,23 @@
   [
    "2026-11-16T06:47:47Z",
    1694.38
+  ],
+  [
+   "2026-11-16T16:30:44Z",
+   1694.57
   ]
  ],
- "runs": 84,
+ "runs": 85,
  "stats": {
-  "equity": 1694.38,
+  "equity": 1694.57,
   "cash": 1640.64,
   "open": 1,
   "trades": 76,
   "wins": 39,
   "winrate": 51.3,
-  "pnl_pct": 69.44,
-  "updated": "2026-11-16T06:47:47Z",
-  "runs": 84,
+  "pnl_pct": 69.46,
+  "updated": "2026-11-16T16:30:44Z",
+  "runs": 85,
   "sht_open": 0,
   "sht_trades": 71,
   "sht_pnl": 702.77
