@@ -1,22 +1,7 @@
 {
- "updated": "2026-11-21T15:38:19Z",
+ "updated": "2026-11-21T21:11:19Z",
  "scanned": 200,
  "signals": [
-  {
-   "strategy": "vols",
-   "slug": "bitcoin-all-time-high-by-december-31-2026",
-   "question": "Bitcoin all time high by December 31, 2026?",
-   "outcome": "-",
-   "price": 0,
-   "edge": 0,
-   "note": "объём 24ч 84699 против среднего 24518",
-   "liq": 145597,
-   "v24": 84699,
-   "z": 0.0,
-   "end": "2027-01-01",
-   "days_left": 40.3,
-   "tradeable": false
-  },
   {
    "strategy": "vols",
    "slug": "will-bitcoin-reach-120000-by-december-31-2026-625-425-562",
@@ -24,27 +9,12 @@
    "outcome": "-",
    "price": 0,
    "edge": 0,
-   "note": "объём 24ч 138719 против среднего 23718",
-   "liq": 142807,
-   "v24": 138719,
+   "note": "объём 24ч 137370 против среднего 23721",
+   "liq": 145946,
+   "v24": 137370,
    "z": 0.0,
    "end": "2027-01-01",
-   "days_left": 40.3,
-   "tradeable": false
-  },
-  {
-   "strategy": "vols",
-   "slug": "will-bitcoin-reach-150000-by-december-31-2026-557-246-971",
-   "question": "Will Bitcoin reach $150,000 by December 31, 2026?",
-   "outcome": "-",
-   "price": 0,
-   "edge": 0,
-   "note": "объём 24ч 22266 против среднего 5630",
-   "liq": 116078,
-   "v24": 22266,
-   "z": 0.0,
-   "end": "2027-01-01",
-   "days_left": 40.3,
+   "days_left": 40.1,
    "tradeable": false
   }
  ]
