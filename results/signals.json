@@ -1,21 +1,5 @@
 {
- "updated": "2026-11-23T22:51:32Z",
+ "updated": "2026-11-24T06:50:29Z",
  "scanned": 200,
- "signals": [
-  {
-   "strategy": "vols",
-   "slug": "eth-updown-5m-1795473900",
-   "question": "Ethereum Up or Down - November 23, 5:45PM-5:50PM ET",
-   "outcome": "-",
-   "price": 0,
-   "edge": 0,
-   "note": "объём 24ч 6843 против среднего 978",
-   "liq": 130803,
-   "v24": 6843,
-   "z": 0.0,
-   "end": "2026-11-23",
-   "days_left": 0.0,
-   "tradeable": false
-  }
- ]
+ "signals": []
 }
