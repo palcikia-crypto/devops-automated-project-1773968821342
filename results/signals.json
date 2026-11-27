@@ -1,5 +1,36 @@
 {
- "updated": "2026-11-27T04:36:18Z",
+ "updated": "2026-11-27T14:20:56Z",
  "scanned": 200,
- "signals": []
+ "signals": [
+  {
+   "strategy": "vols",
+   "slug": "will-bitcoin-reach-500000-by-december-31-2026-864",
+   "question": "Will Bitcoin reach $500,000 by December 31, 2026?",
+   "outcome": "-",
+   "price": 0,
+   "edge": 0,
+   "note": "объём 24ч 106814 против среднего 15626",
+   "liq": 298443,
+   "v24": 106814,
+   "z": 0.0,
+   "end": "2027-01-01",
+   "days_left": 34.4,
+   "tradeable": false
+  },
+  {
+   "strategy": "vols",
+   "slug": "bitcoin-above-50k-on-november-27-2026",
+   "question": "Will the price of Bitcoin be above $50,000 on November 27?",
+   "outcome": "-",
+   "price": 0,
+   "edge": 0,
+   "note": "объём 24ч 41680 против среднего 13024",
+   "liq": 141378,
+   "v24": 41680,
+   "z": 0.0,
+   "end": "2026-11-27",
+   "days_left": 0.0,
+   "tradeable": false
+  }
+ ]
 }
